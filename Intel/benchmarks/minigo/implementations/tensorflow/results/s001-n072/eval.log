@@ -1,0 +1,704 @@
+python3 ml_perf/execute.py --num_instance=100 -- bazel-bin/cc/eval --flagfile=/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/flags/eval.flags --model=tf,/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/models/000001-000001.pb --model_two=tf,/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/models/checkpoint.pb --sgf_dir=/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/sgf/eval/000001-000001 --seed=2
+do_execute_mi
+copying finished
+num_instance>1
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1197 batches with an average size of 7.99332
+Ran 1161 batches with an average size of 7.99397
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1229 batches with an average size of 7.9943
+Ran 1252 batches with an average size of 7.90016
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       0       1       0       0       0       0       0
+Ran 1246 batches with an average size of 7.96709
+Ran 1244 batches with an average size of 7.93971
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1339 batches with an average size of 7.99477
+Ran 1374 batches with an average size of 7.96361
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          0       0       0       0       1       1       0       0
+Ran 1391 batches with an average size of 7.99425
+Ran 1414 batches with an average size of 7.99151
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1446 batches with an average size of 7.97234
+Ran 1401 batches with an average size of 7.98572
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       1       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1465 batches with an average size of 7.91877
+Ran 1486 batches with an average size of 7.98923
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       0       1       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1528 batches with an average size of 7.92539
+Ran 1478 batches with an average size of 7.91949
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          0       0       0       0       1       1       0       0
+Ran 1504 batches with an average size of 7.97141
+Ran 1556 batches with an average size of 7.94216
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          0       0       0       0       1       1       0       0
+Ran 1507 batches with an average size of 7.91241
+Ran 1441 batches with an average size of 7.92852
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          0       0       0       0       1       1       0       0
+Ran 1510 batches with an average size of 7.97947
+Ran 1557 batches with an average size of 7.92229
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       1       0       0       0       0       0       0
+Ran 1547 batches with an average size of 7.92049
+Ran 1514 batches with an average size of 7.96896
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          0       0       0       0       1       0       1       0
+Ran 1559 batches with an average size of 7.89416
+Ran 1607 batches with an average size of 7.91786
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       0       1       0       0       0       0       0
+Ran 1607 batches with an average size of 7.91599
+Ran 1580 batches with an average size of 7.88797
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       1       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1594 batches with an average size of 7.90464
+Ran 1641 batches with an average size of 7.96161
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1596 batches with an average size of 7.91291
+Ran 1662 batches with an average size of 7.95909
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       0       1       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1639 batches with an average size of 7.99573
+Ran 1633 batches with an average size of 7.94979
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       1       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1787 batches with an average size of 7.96195
+Ran 1771 batches with an average size of 7.99492
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1621 batches with an average size of 7.92659
+Ran 1687 batches with an average size of 7.90634
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       0       1       0       0       0       0       0
+Ran 1692 batches with an average size of 7.90839
+Ran 1654 batches with an average size of 7.96372
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       1       0       0       0       0       0       0
+Ran 1695 batches with an average size of 7.93805
+Ran 1682 batches with an average size of 7.95719
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       0       1       0       0       0       0       0
+Ran 1801 batches with an average size of 7.91671
+Ran 1817 batches with an average size of 7.98074
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          0       0       0       0       1       1       0       0
+Ran 1815 batches with an average size of 7.98788
+Ran 1843 batches with an average size of 7.95551
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       1       0       0       0       0       0       0
+Ran 2106 batches with an average size of 7.96344
+Ran 2122 batches with an average size of 7.9868
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1298 batches with an average size of 7.98613
+Ran 1339 batches with an average size of 7.92681
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1344 batches with an average size of 7.95089
+Ran 1312 batches with an average size of 7.99466
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1266 batches with an average size of 7.98262
+Ran 1301 batches with an average size of 7.93928
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       0       1       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1641 batches with an average size of 7.93114
+Ran 1657 batches with an average size of 7.98552
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       1       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1421 batches with an average size of 7.98593
+Ran 1381 batches with an average size of 7.91311
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       1       0       0       0       0       0       0
+Ran 1527 batches with an average size of 7.98821
+Ran 1541 batches with an average size of 7.93446
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1484 batches with an average size of 7.99528
+Ran 1526 batches with an average size of 7.99541
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       1       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1189 batches with an average size of 7.96384
+Ran 1188 batches with an average size of 7.99411
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1213 batches with an average size of 7.99423
+Ran 1256 batches with an average size of 7.98328
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       0       1       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1379 batches with an average size of 7.8789
+Ran 1379 batches with an average size of 7.88905
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       0       1       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1325 batches with an average size of 7.9283
+Ran 1336 batches with an average size of 7.89746
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1251 batches with an average size of 7.94644
+Ran 1225 batches with an average size of 7.99347
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       0       1       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1439 batches with an average size of 7.91035
+Ran 1481 batches with an average size of 7.96286
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          0       0       0       0       1       0       1       0
+Ran 1623 batches with an average size of 7.95009
+Ran 1658 batches with an average size of 7.97165
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       0       1       0       0       0       0       0
+Ran 1646 batches with an average size of 7.92102
+Ran 1622 batches with an average size of 7.98089
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       0       1       0       0       0       0       0
+Ran 1597 batches with an average size of 7.95429
+Ran 1569 batches with an average size of 7.86106
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       0       1       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1538 batches with an average size of 7.94863
+Ran 1579 batches with an average size of 7.98733
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          0       0       0       0       1       0       1       0
+Ran 1718 batches with an average size of 7.96857
+Ran 1678 batches with an average size of 7.96424
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       0       1       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1469 batches with an average size of 7.98094
+Ran 1463 batches with an average size of 7.98633
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       1       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1534 batches with an average size of 7.96284
+Ran 1575 batches with an average size of 7.97524
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1732 batches with an average size of 7.91917
+Ran 1684 batches with an average size of 7.9038
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       1       0       0       0       0       0       0
+Ran 1980 batches with an average size of 7.96111
+Ran 2004 batches with an average size of 7.96856
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          0       0       0       0       1       1       0       0
+Ran 1791 batches with an average size of 7.98157
+Ran 1833 batches with an average size of 7.94544
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       0       1       0       0       0       0       0
+Ran 1592 batches with an average size of 7.8907
+Ran 1600 batches with an average size of 7.98688
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1780 batches with an average size of 7.99551
+Ran 1713 batches with an average size of 7.98541
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1349 batches with an average size of 7.9911
+Ran 1398 batches with an average size of 7.94421
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       0       1       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1347 batches with an average size of 7.89458
+Ran 1372 batches with an average size of 7.92274
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1570 batches with an average size of 7.99554
+Ran 1603 batches with an average size of 7.98066
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          0       0       0       0       1       1       0       0
+Ran 1650 batches with an average size of 7.92727
+Ran 1632 batches with an average size of 7.99571
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       0       1       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1596 batches with an average size of 7.99436
+Ran 1590 batches with an average size of 7.9912
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       1       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1280 batches with an average size of 7.92031
+Ran 1286 batches with an average size of 7.99456
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       0       1       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1403 batches with an average size of 7.99359
+Ran 1364 batches with an average size of 7.93548
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       1       0       0       0       0       0       0
+Ran 1983 batches with an average size of 7.9299
+Ran 1984 batches with an average size of 7.99647
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       0       1       0       0       0       0       0
+Ran 1400 batches with an average size of 7.95857
+Ran 1397 batches with an average size of 7.94202
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       0       1       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1597 batches with an average size of 7.93175
+Ran 1560 batches with an average size of 7.93654
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          0       0       0       0       1       0       1       0
+Ran 1542 batches with an average size of 7.88716
+Ran 1598 batches with an average size of 7.95745
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       0       1       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1433 batches with an average size of 7.94208
+Ran 1417 batches with an average size of 7.94072
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       0       1       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1376 batches with an average size of 7.94404
+Ran 1407 batches with an average size of 7.99502
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       0       1       0       0       0       0       0
+Ran 1545 batches with an average size of 7.97605
+Ran 1558 batches with an average size of 7.98716
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1480 batches with an average size of 7.94865
+Ran 1549 batches with an average size of 7.91349
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1373 batches with an average size of 7.97378
+Ran 1327 batches with an average size of 7.98719
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          0       0       0       0       1       0       1       0
+Ran 1533 batches with an average size of 7.95238
+Ran 1594 batches with an average size of 7.94228
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       0       1       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1533 batches with an average size of 7.95369
+Ran 1544 batches with an average size of 7.98834
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       0       1       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1572 batches with an average size of 7.98537
+Ran 1574 batches with an average size of 7.95743
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       0       1       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1666 batches with an average size of 7.97719
+Ran 1622 batches with an average size of 7.93218
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       1       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1398 batches with an average size of 7.92561
+Ran 1403 batches with an average size of 7.99501
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       0       1       0       0       0       0       0
+Ran 1708 batches with an average size of 7.98478
+Ran 1724 batches with an average size of 7.88921
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1736 batches with an average size of 7.99597
+Ran 1675 batches with an average size of 7.97612
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1225 batches with an average size of 7.99429
+Ran 1255 batches with an average size of 7.98167
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1200 batches with an average size of 7.99417
+Ran 1223 batches with an average size of 7.94931
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       0       1       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1485 batches with an average size of 7.93333
+Ran 1550 batches with an average size of 7.93613
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       0       1       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1554 batches with an average size of 7.9955
+Ran 1562 batches with an average size of 7.99296
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       0       1       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1405 batches with an average size of 7.99502
+Ran 1364 batches with an average size of 7.94428
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          0       0       0       0       1       1       0       0
+Ran 1656 batches with an average size of 7.92572
+Ran 1617 batches with an average size of 7.98763
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       1       0       0       0       0       0       0
+Ran 1460 batches with an average size of 7.97123
+Ran 1453 batches with an average size of 7.99518
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       0       1       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1618 batches with an average size of 7.99011
+Ran 1618 batches with an average size of 7.99567
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       0       1       0       0       0       0       0
+Ran 1595 batches with an average size of 7.95737
+Ran 1609 batches with an average size of 7.94655
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       0       1       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1412 batches with an average size of 7.97025
+Ran 1376 batches with an average size of 7.96584
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       1       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1487 batches with an average size of 7.98655
+Ran 1458 batches with an average size of 7.93896
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       0       1       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1633 batches with an average size of 7.92162
+Ran 1682 batches with an average size of 7.94352
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          0       0       0       0       1       1       0       0
+Ran 1740 batches with an average size of 7.97586
+Ran 1797 batches with an average size of 7.89761
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          0       0       0       0       1       0       1       0
+Ran 1645 batches with an average size of 7.97143
+Ran 1680 batches with an average size of 7.92262
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       1       0       0       0       0       0       0
+Ran 1520 batches with an average size of 7.93882
+Ran 1523 batches with an average size of 7.97242
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       0       1       0       0       0       0       0
+Ran 1472 batches with an average size of 7.92391
+Ran 1464 batches with an average size of 7.98839
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1586 batches with an average size of 7.99559
+Ran 1558 batches with an average size of 7.96662
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       0       1       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1614 batches with an average size of 7.99566
+Ran 1581 batches with an average size of 7.96268
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1478 batches with an average size of 7.99391
+Ran 1519 batches with an average size of 7.98947
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       1       0       0       0       0       0       0
+Ran 1719 batches with an average size of 7.95579
+Ran 1728 batches with an average size of 7.99595
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       1       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1395 batches with an average size of 7.99498
+Ran 1405 batches with an average size of 7.9879
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       1       0       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1492 batches with an average size of 7.96448
+Ran 1535 batches with an average size of 7.96808
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       1       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1539 batches with an average size of 7.98765
+Ran 1549 batches with an average size of 7.95223
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       1       0       0       0       0       0       0
+Ran 2284 batches with an average size of 7.99562
+Ran 2321 batches with an average size of 7.93839
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       1       0       1       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1358 batches with an average size of 7.93373
+Ran 1365 batches with an average size of 7.98681
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       0       1       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1462 batches with an average size of 7.99521
+Ran 1433 batches with an average size of 7.94417
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       1       0       1       0       0       0       0       0
+checkpoint          0       0       0       0       0       0       0       0
+Ran 1573 batches with an average size of 7.92308
+Ran 1491 batches with an average size of 7.92488
+
+                Black   Black   Black   Black   White   White   White   White
+                total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+000001-000001       0       0       0       0       0       0       0       0
+checkpoint          1       1       0       0       0       0       0       0
+Ran 1978 batches with an average size of 7.97877
+Ran 1973 batches with an average size of 7.94171
+

@@ -1,0 +1,1450 @@
+python3 train.py /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000009.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000008.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000007.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000006.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000005.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000004.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000003.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000002.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000001.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000000.tfrecord.zz --conv_width=32 --fc_width=64 --trunk_layers=9 --value_cost_weight=0.25 --summary_steps=64 --shuffle_buffer_size=10000 --filter_amount=0.5 --train_batch_size=8192 --lr_rates=0.32 --lr_rates=0.032 --lr_rates=0.0032 --lr_boundaries=12500 --lr_boundaries=18750 --l2_strength=0.0001 --work_dir=/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir --export_path=/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/models/000001-000001 --training_seed=2 --freeze=True --num_inter_threads=1 --num_intra_threads=2 --dist_train=True
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+:::MLL 1590490020.485406 global_batch_size: {"value": 8192, "metadata": {'lineno': 224, 'file': 'train.py'}}
+:::MLL 1590490020.486302 opt_base_learning_rate: {"value": [0.32, 0.032, 0.0032], "metadata": {'lineno': 225, 'file': 'train.py'}}
+:::MLL 1590490020.487133 opt_learning_rate_decay_boundary_steps: {"value": [12500, 18750], "metadata": {'lineno': 226, 'file': 'train.py'}}
+I0526 03:47:00.487200 140713731848000 train.py:229] Training on 10 records: /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000009.tfrecord.zz to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000000.tfrecord.zz
+:::MLL 1590490020.486577 global_batch_size: {"value": 8192, "metadata": {'lineno': 224, 'file': 'train.py'}}
+:::MLL 1590490020.487469 opt_base_learning_rate: {"value": [0.32, 0.032, 0.0032], "metadata": {'lineno': 225, 'file': 'train.py'}}
+:::MLL 1590490020.488292 opt_learning_rate_decay_boundary_steps: {"value": [12500, 18750], "metadata": {'lineno': 226, 'file': 'train.py'}}
+I0526 03:47:00.488359 140231098521408 train.py:229] Training on 10 records: /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000009.tfrecord.zz to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000000.tfrecord.zz
+:::MLL 1590490020.487173 global_batch_size: {"value": 8192, "metadata": {'lineno': 224, 'file': 'train.py'}}
+:::MLL 1590490020.488082 opt_base_learning_rate: {"value": [0.32, 0.032, 0.0032], "metadata": {'lineno': 225, 'file': 'train.py'}}
+:::MLL 1590490020.488939 opt_learning_rate_decay_boundary_steps: {"value": [12500, 18750], "metadata": {'lineno': 226, 'file': 'train.py'}}
+I0526 03:47:00.489000 139919201453888 train.py:229] Training on 10 records: /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000009.tfrecord.zz to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000000.tfrecord.zz
+WARNING:tensorflow:Using temporary folder as model directory: /home/u41625/tmp/tmpdc3pkzkk
+INFO:tensorflow:Using config: {'_model_dir': '/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir', '_tf_random_seed': None, '_save_summary_steps': 64, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': intra_op_parallelism_threads: 2
+inter_op_parallelism_threads: 1
+gpu_options {
+  allow_growth: true
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 50, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f412f180690>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+I0526 03:47:00.490340 139919201453888 estimator.py:201] Using config: {'_model_dir': '/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir', '_tf_random_seed': None, '_save_summary_steps': 64, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': intra_op_parallelism_threads: 2
+inter_op_parallelism_threads: 1
+gpu_options {
+  allow_growth: true
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 50, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f412f180690>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+W0526 03:47:00.490181 140713731848000 estimator.py:1760] Using temporary folder as model directory: /home/u41625/tmp/tmpdc3pkzkk
+INFO:tensorflow:Using config: {'_model_dir': '/home/u41625/tmp/tmpdc3pkzkk', '_tf_random_seed': None, '_save_summary_steps': 1000000, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': intra_op_parallelism_threads: 2
+inter_op_parallelism_threads: 1
+gpu_options {
+  allow_growth: true
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 1000000, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7ffa2ccb9790>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+I0526 03:47:00.491343 139919201453888 train.py:197] Training, steps = ?, batch = 2048 -> ? examples
+I0526 03:47:00.491189 140713731848000 estimator.py:201] Using config: {'_model_dir': '/home/u41625/tmp/tmpdc3pkzkk', '_tf_random_seed': None, '_save_summary_steps': 1000000, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': intra_op_parallelism_threads: 2
+inter_op_parallelism_threads: 1
+gpu_options {
+  allow_growth: true
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 1000000, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7ffa2ccb9790>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+WARNING:tensorflow:Using temporary folder as model directory: /home/u41625/tmp/tmpm6qf8sv2
+W0526 03:47:00.491091 140231098521408 estimator.py:1760] Using temporary folder as model directory: /home/u41625/tmp/tmpm6qf8sv2
+INFO:tensorflow:Using config: {'_model_dir': '/home/u41625/tmp/tmpm6qf8sv2', '_tf_random_seed': None, '_save_summary_steps': 1000000, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': intra_op_parallelism_threads: 2
+inter_op_parallelism_threads: 1
+gpu_options {
+  allow_growth: true
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 1000000, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f89cd9b7710>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+I0526 03:47:00.491878 140231098521408 estimator.py:201] Using config: {'_model_dir': '/home/u41625/tmp/tmpm6qf8sv2', '_tf_random_seed': None, '_save_summary_steps': 1000000, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': intra_op_parallelism_threads: 2
+inter_op_parallelism_threads: 1
+gpu_options {
+  allow_growth: true
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 1000000, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f89cd9b7710>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+I0526 03:47:00.492253 140713731848000 train.py:197] Training, steps = ?, batch = 2048 -> ? examples
+I0526 03:47:00.492589 140231098521408 train.py:197] Training, steps = ?, batch = 2048 -> ? examples
+:::MLL 1590490020.495244 global_batch_size: {"value": 8192, "metadata": {'lineno': 224, 'file': 'train.py'}}
+:::MLL 1590490020.496133 opt_base_learning_rate: {"value": [0.32, 0.032, 0.0032], "metadata": {'lineno': 225, 'file': 'train.py'}}
+:::MLL 1590490020.496957 opt_learning_rate_decay_boundary_steps: {"value": [12500, 18750], "metadata": {'lineno': 226, 'file': 'train.py'}}
+I0526 03:47:00.497023 140632874784576 train.py:229] Training on 10 records: /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000009.tfrecord.zz to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000000.tfrecord.zz
+WARNING:tensorflow:Using temporary folder as model directory: /home/u41625/tmp/tmphta8355h
+W0526 03:47:00.499279 140632874784576 estimator.py:1760] Using temporary folder as model directory: /home/u41625/tmp/tmphta8355h
+INFO:tensorflow:Using config: {'_model_dir': '/home/u41625/tmp/tmphta8355h', '_tf_random_seed': None, '_save_summary_steps': 1000000, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': intra_op_parallelism_threads: 2
+inter_op_parallelism_threads: 1
+gpu_options {
+  allow_growth: true
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 1000000, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7fe75956b710>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+I0526 03:47:00.500091 140632874784576 estimator.py:201] Using config: {'_model_dir': '/home/u41625/tmp/tmphta8355h', '_tf_random_seed': None, '_save_summary_steps': 1000000, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': intra_op_parallelism_threads: 2
+inter_op_parallelism_threads: 1
+gpu_options {
+  allow_growth: true
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 1000000, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7fe75956b710>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:238: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+W0526 03:47:00.500350 139919201453888 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:238: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+I0526 03:47:00.500802 140632874784576 train.py:197] Training, steps = ?, batch = 2048 -> ? examples
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:238: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+W0526 03:47:00.501383 140231098521408 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:238: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:238: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+W0526 03:47:00.501974 140713731848000 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:238: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:238: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+W0526 03:47:00.508831 140632874784576 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:238: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+WARNING:tensorflow:From ./preprocessing.py:140: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+W0526 03:47:00.512540 139919201453888 deprecation.py:323] From ./preprocessing.py:140: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+WARNING:tensorflow:From ./preprocessing.py:140: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+W0526 03:47:00.513754 140713731848000 deprecation.py:323] From ./preprocessing.py:140: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+WARNING:tensorflow:From ./preprocessing.py:140: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+W0526 03:47:00.514323 140231098521408 deprecation.py:323] From ./preprocessing.py:140: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+WARNING:tensorflow:From ./preprocessing.py:140: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+W0526 03:47:00.521693 140632874784576 deprecation.py:323] From ./preprocessing.py:140: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+WARNING:tensorflow:From ./preprocessing.py:173: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+W0526 03:47:00.561584 139919201453888 deprecation.py:323] From ./preprocessing.py:173: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING:tensorflow:From ./preprocessing.py:173: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+W0526 03:47:00.562525 140231098521408 deprecation.py:323] From ./preprocessing.py:173: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING:tensorflow:From ./preprocessing.py:173: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+W0526 03:47:00.563540 140713731848000 deprecation.py:323] From ./preprocessing.py:173: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/util.py:104: DatasetV1.make_initializable_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_initializable_iterator(dataset)`.
+W0526 03:47:00.565933 139919201453888 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/util.py:104: DatasetV1.make_initializable_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_initializable_iterator(dataset)`.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/util.py:104: DatasetV1.make_initializable_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_initializable_iterator(dataset)`.
+W0526 03:47:00.566821 140231098521408 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/util.py:104: DatasetV1.make_initializable_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_initializable_iterator(dataset)`.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/util.py:104: DatasetV1.make_initializable_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_initializable_iterator(dataset)`.
+W0526 03:47:00.568191 140713731848000 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/util.py:104: DatasetV1.make_initializable_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_initializable_iterator(dataset)`.
+INFO:tensorflow:Calling model_fn.
+I0526 03:47:00.570185 139919201453888 estimator.py:1111] Calling model_fn.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+W0526 03:47:00.570292 139919201453888 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From ./preprocessing.py:173: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+INFO:tensorflow:Calling model_fn.
+W0526 03:47:00.571036 140632874784576 deprecation.py:323] From ./preprocessing.py:173: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+I0526 03:47:00.571049 140231098521408 estimator.py:1111] Calling model_fn.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1257: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+W0526 03:47:00.571154 140231098521408 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+W0526 03:47:00.571218 139919201453888 deprecation.py:506] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1257: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1257: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0526 03:47:00.572063 140231098521408 deprecation.py:506] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1257: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+INFO:tensorflow:Calling model_fn.
+I0526 03:47:00.572925 140713731848000 estimator.py:1111] Calling model_fn.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+W0526 03:47:00.573062 140713731848000 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1257: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0526 03:47:00.574065 140713731848000 deprecation.py:506] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1257: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/util.py:104: DatasetV1.make_initializable_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_initializable_iterator(dataset)`.
+W0526 03:47:00.575405 140632874784576 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/util.py:104: DatasetV1.make_initializable_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_initializable_iterator(dataset)`.
+INFO:tensorflow:Calling model_fn.
+I0526 03:47:00.579699 140632874784576 estimator.py:1111] Calling model_fn.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+W0526 03:47:00.579809 140632874784576 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1257: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0526 03:47:00.580731 140632874784576 deprecation.py:506] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1257: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.
+W0526 03:47:00.707810 139919201453888 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.
+W0526 03:47:00.722075 140231098521408 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.
+W0526 03:47:00.741187 140632874784576 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.
+W0526 03:47:00.747301 140713731848000 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:506: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+W0526 03:47:01.373453 139919201453888 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:506: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:506: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+W0526 03:47:01.384165 140632874784576 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:506: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:506: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+W0526 03:47:01.389479 140231098521408 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:506: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:506: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+W0526 03:47:01.413705 140713731848000 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:506: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/slot_creator.py:187: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0526 03:47:02.137087 139919201453888 deprecation.py:506] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/slot_creator.py:187: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/slot_creator.py:187: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0526 03:47:02.154134 140231098521408 deprecation.py:506] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/slot_creator.py:187: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/slot_creator.py:187: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0526 03:47:02.196197 140632874784576 deprecation.py:506] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/slot_creator.py:187: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/slot_creator.py:187: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0526 03:47:02.242005 140713731848000 deprecation.py:506] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/slot_creator.py:187: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:311: The name tf.log is deprecated. Please use tf.math.log instead.
+
+W0526 03:47:02.477300 139919201453888 deprecation.py:237] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:311: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:317: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0526 03:47:02.481851 139919201453888 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:317: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:311: The name tf.log is deprecated. Please use tf.math.log instead.
+
+W0526 03:47:02.488558 140231098521408 deprecation.py:237] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:311: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:317: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0526 03:47:02.493043 140231098521408 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:317: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:311: The name tf.log is deprecated. Please use tf.math.log instead.
+
+W0526 03:47:02.555309 140632874784576 deprecation.py:237] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:311: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:317: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0526 03:47:02.560072 140632874784576 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:317: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:311: The name tf.log is deprecated. Please use tf.math.log instead.
+
+W0526 03:47:02.602908 140713731848000 deprecation.py:237] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:311: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:317: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0526 03:47:02.607444 140713731848000 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:317: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:363: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0526 03:47:02.808807 139919201453888 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:363: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+INFO:tensorflow:Done calling model_fn.
+I0526 03:47:02.813779 139919201453888 estimator.py:1113] Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+I0526 03:47:02.814769 139919201453888 basic_session_run_hooks.py:527] Create CheckpointSaverHook.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:363: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0526 03:47:02.814996 140231098521408 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:363: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+INFO:tensorflow:Done calling model_fn.
+I0526 03:47:02.819985 140231098521408 estimator.py:1113] Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+I0526 03:47:02.820944 140231098521408 basic_session_run_hooks.py:527] Create CheckpointSaverHook.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:363: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0526 03:47:02.906492 140632874784576 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:363: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+INFO:tensorflow:Done calling model_fn.
+I0526 03:47:02.911788 140632874784576 estimator.py:1113] Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+I0526 03:47:02.912851 140632874784576 basic_session_run_hooks.py:527] Create CheckpointSaverHook.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:363: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0526 03:47:02.935176 140713731848000 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:363: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+INFO:tensorflow:Done calling model_fn.
+I0526 03:47:02.940739 140713731848000 estimator.py:1113] Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+I0526 03:47:02.941883 140713731848000 basic_session_run_hooks.py:527] Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+I0526 03:47:03.648405 139919201453888 monitored_session.py:237] Graph was finalized.
+2020-05-26 03:47:03.648681: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  AVX512F
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+W0526 03:47:03.652987 139919201453888 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+INFO:tensorflow:Restoring parameters from /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir/model.ckpt-9383
+I0526 03:47:03.654831 139919201453888 saver.py:1280] Restoring parameters from /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir/model.ckpt-9383
+INFO:tensorflow:Graph was finalized.
+I0526 03:47:03.889152 140231098521408 monitored_session.py:237] Graph was finalized.
+2020-05-26 03:47:03.889412: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  AVX512F
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+W0526 03:47:03.970721 139919201453888 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+INFO:tensorflow:Graph was finalized.
+I0526 03:47:04.103286 140632874784576 monitored_session.py:237] Graph was finalized.
+2020-05-26 03:47:04.103585: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  AVX512F
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+INFO:tensorflow:Graph was finalized.
+I0526 03:47:04.105504 140713731848000 monitored_session.py:237] Graph was finalized.
+2020-05-26 03:47:04.105805: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  AVX512F
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+INFO:tensorflow:Running local_init_op.
+I0526 03:47:04.107120 139919201453888 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0526 03:47:04.202225 139919201453888 session_manager.py:502] Done running local_init_op.
+INFO:tensorflow:Running local_init_op.
+I0526 03:47:04.457260 140231098521408 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0526 03:47:04.547925 140231098521408 session_manager.py:502] Done running local_init_op.
+INFO:tensorflow:Running local_init_op.
+I0526 03:47:04.675665 140632874784576 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Running local_init_op.
+I0526 03:47:04.715492 140713731848000 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0526 03:47:04.772625 140632874784576 session_manager.py:502] Done running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0526 03:47:04.810053 140713731848000 session_manager.py:502] Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 9383 into /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir/model.ckpt.
+I0526 03:47:05.583741 139919201453888 basic_session_run_hooks.py:594] Saving checkpoints for 9383 into /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir/model.ckpt.
+INFO:tensorflow:Saving checkpoints for 0 into /home/u41625/tmp/tmpm6qf8sv2/model.ckpt.
+I0526 03:47:05.961377 140231098521408 basic_session_run_hooks.py:594] Saving checkpoints for 0 into /home/u41625/tmp/tmpm6qf8sv2/model.ckpt.
+INFO:tensorflow:Saving checkpoints for 0 into /home/u41625/tmp/tmphta8355h/model.ckpt.
+I0526 03:47:06.168205 140632874784576 basic_session_run_hooks.py:594] Saving checkpoints for 0 into /home/u41625/tmp/tmphta8355h/model.ckpt.
+INFO:tensorflow:Saving checkpoints for 0 into /home/u41625/tmp/tmpdc3pkzkk/model.ckpt.
+I0526 03:47:06.224568 140713731848000 basic_session_run_hooks.py:594] Saving checkpoints for 0 into /home/u41625/tmp/tmpdc3pkzkk/model.ckpt.
+INFO:tensorflow:loss = 3.1293411, step = 9384
+I0526 03:47:14.220241 140713731848000 basic_session_run_hooks.py:249] loss = 3.1293411, step = 9384
+INFO:tensorflow:loss = 3.1228538, step = 9384
+I0526 03:47:14.222434 139919201453888 basic_session_run_hooks.py:249] loss = 3.1228538, step = 9384
+INFO:tensorflow:loss = 3.1466644, step = 9384
+I0526 03:47:14.223425 140632874784576 basic_session_run_hooks.py:249] loss = 3.1466644, step = 9384
+INFO:tensorflow:loss = 3.1081448, step = 9384
+I0526 03:47:14.274798 140231098521408 basic_session_run_hooks.py:249] loss = 3.1081448, step = 9384
+INFO:tensorflow:global_step/sec: 0.635414
+I0526 03:48:32.909556 139919201453888 basic_session_run_hooks.py:679] global_step/sec: 0.635414
+INFO:tensorflow:loss = 3.0920377, step = 9434 (78.688 sec)
+I0526 03:48:32.910534 139919201453888 basic_session_run_hooks.py:247] loss = 3.0920377, step = 9434 (78.688 sec)
+INFO:tensorflow:global_step/sec: 0.666714
+I0526 03:49:47.904368 140713731848000 train.py:94] 9484: 0.651 steps per second
+INFO:tensorflow:global_step/sec: 0.650686
+I0526 03:49:47.904416 139919201453888 basic_session_run_hooks.py:679] global_step/sec: 0.666714
+I0526 03:49:47.905727 140713731848000 basic_session_run_hooks.py:679] global_step/sec: 0.650686
+I0526 03:49:47.906860 139919201453888 train.py:94] 9484: 0.651 steps per second
+INFO:tensorflow:global_step/sec: 0.650683
+I0526 03:49:47.907164 139919201453888 basic_session_run_hooks.py:679] global_step/sec: 0.650683
+INFO:tensorflow:loss = 3.1122303, step = 9484 (74.997 sec)
+I0526 03:49:47.907649 139919201453888 basic_session_run_hooks.py:247] loss = 3.1122303, step = 9484 (74.997 sec)
+I0526 03:49:47.923171 140632874784576 train.py:94] 9484: 0.651 steps per second
+INFO:tensorflow:global_step/sec: 0.65062
+I0526 03:49:47.924398 140632874784576 basic_session_run_hooks.py:679] global_step/sec: 0.65062
+I0526 03:49:47.951397 140231098521408 train.py:94] 9484: 0.651 steps per second
+INFO:tensorflow:global_step/sec: 0.650716
+I0526 03:49:47.951961 140231098521408 basic_session_run_hooks.py:679] global_step/sec: 0.650716
+INFO:tensorflow:global_step/sec: 0.678149
+I0526 03:51:01.634503 139919201453888 basic_session_run_hooks.py:679] global_step/sec: 0.678149
+INFO:tensorflow:loss = 3.102668, step = 9534 (73.729 sec)
+I0526 03:51:01.636332 139919201453888 basic_session_run_hooks.py:247] loss = 3.102668, step = 9534 (73.729 sec)
+I0526 03:52:14.599317 140231098521408 train.py:94] 9584: 0.682 steps per second
+INFO:tensorflow:global_step/sec: 0.681905
+INFO:tensorflow:global_step/sec: 0.685253
+I0526 03:52:14.599976 139919201453888 basic_session_run_hooks.py:679] global_step/sec: 0.685253
+I0526 03:52:14.599985 140713731848000 train.py:94] 9584: 0.682 steps per second
+I0526 03:52:14.601707 139919201453888 train.py:94] 9584: 0.682 steps per second
+INFO:tensorflow:global_step/sec: 0.681684
+INFO:tensorflow:global_step/sec: 0.681687
+I0526 03:52:14.599898 140231098521408 basic_session_run_hooks.py:679] global_step/sec: 0.681905
+I0526 03:52:14.601991 139919201453888 basic_session_run_hooks.py:679] global_step/sec: 0.681687
+INFO:tensorflow:loss = 3.098069, step = 9584 (72.966 sec)
+I0526 03:52:14.602378 139919201453888 basic_session_run_hooks.py:247] loss = 3.098069, step = 9584 (72.966 sec)
+I0526 03:52:14.601692 140713731848000 basic_session_run_hooks.py:679] global_step/sec: 0.681684
+I0526 03:52:14.651899 140632874784576 train.py:94] 9584: 0.682 steps per second
+INFO:tensorflow:global_step/sec: 0.68153
+I0526 03:52:14.653278 140632874784576 basic_session_run_hooks.py:679] global_step/sec: 0.68153
+INFO:tensorflow:Saving checkpoints for 9608 into /home/u41625/tmp/tmpdc3pkzkk/model.ckpt.
+I0526 03:52:49.378684 140713731848000 basic_session_run_hooks.py:594] Saving checkpoints for 9608 into /home/u41625/tmp/tmpdc3pkzkk/model.ckpt.
+INFO:tensorflow:Saving checkpoints for 9608 into /home/u41625/tmp/tmpm6qf8sv2/model.ckpt.
+I0526 03:52:49.379374 140231098521408 basic_session_run_hooks.py:594] Saving checkpoints for 9608 into /home/u41625/tmp/tmpm6qf8sv2/model.ckpt.
+INFO:tensorflow:Saving checkpoints for 9608 into /home/u41625/tmp/tmphta8355h/model.ckpt.
+I0526 03:52:49.380345 140632874784576 basic_session_run_hooks.py:594] Saving checkpoints for 9608 into /home/u41625/tmp/tmphta8355h/model.ckpt.
+INFO:tensorflow:Saving checkpoints for 9608 into /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir/model.ckpt.
+I0526 03:52:49.381243 139919201453888 basic_session_run_hooks.py:594] Saving checkpoints for 9608 into /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir/model.ckpt.
+INFO:tensorflow:Loss for final step: 3.1803796.
+I0526 03:52:49.814957 140231098521408 estimator.py:359] Loss for final step: 3.1803796.
+I0526 03:52:49.815583 140231098521408 utils.py:86] Training: 349.327 seconds
+INFO:tensorflow:Loss for final step: 3.196635.
+I0526 03:52:49.817347 140632874784576 estimator.py:359] Loss for final step: 3.196635.
+I0526 03:52:49.817932 140632874784576 utils.py:86] Training: 349.321 seconds
+INFO:tensorflow:Loss for final step: 3.2119355.
+I0526 03:52:49.827116 139919201453888 estimator.py:359] Loss for final step: 3.2119355.
+I0526 03:52:49.827702 139919201453888 utils.py:86] Training: 349.338 seconds
+INFO:tensorflow:Using default config.
+I0526 03:52:49.828304 139919201453888 estimator.py:1739] Using default config.
+INFO:tensorflow:Using config: {'_model_dir': '/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f4080353dd0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+I0526 03:52:49.828656 139919201453888 estimator.py:201] Using config: {'_model_dir': '/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f4080353dd0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+INFO:tensorflow:Loss for final step: 3.1820383.
+I0526 03:52:49.828258 140713731848000 estimator.py:359] Loss for final step: 3.1820383.
+I0526 03:52:49.828938 140713731848000 utils.py:86] Training: 349.341 seconds
+I0526 03:52:50.056774 139919201453888 dual_net.py:192] TPU inference is supported on C++ only. DualNetwork will ignore use_tpu=True
+INFO:tensorflow:Restoring parameters from /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/models/000001-000001
+I0526 03:52:51.877645 139919201453888 saver.py:1280] Restoring parameters from /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/models/000001-000001
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:728: convert_variables_to_constants (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.convert_variables_to_constants`
+W0526 03:52:52.176231 139919201453888 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:728: convert_variables_to_constants (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.convert_variables_to_constants`
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/graph_util_impl.py:270: extract_sub_graph (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.extract_sub_graph`
+W0526 03:52:52.176408 139919201453888 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/graph_util_impl.py:270: extract_sub_graph (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.extract_sub_graph`
+INFO:tensorflow:Froze 107 variables.
+I0526 03:52:52.294466 139919201453888 graph_util_impl.py:311] Froze 107 variables.
+INFO:tensorflow:Converted 107 variables to const ops.
+I0526 03:52:52.303863 139919201453888 graph_util_impl.py:364] Converted 107 variables to const ops.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/tools/optimize_for_inference_lib.py:113: remove_training_nodes (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.remove_training_nodes`
+W0526 03:52:52.318553 139919201453888 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/tools/optimize_for_inference_lib.py:113: remove_training_nodes (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.remove_training_nodes`Reading tf_records from 10 inputs
+Copying /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir/model.ckpt-9608.data-00000-of-00001 to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/models/000001-000001.data-00000-of-00001
+Copying /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir/model.ckpt-9608.index to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/models/000001-000001.index
+Copying /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir/model.ckpt-9608.meta to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/models/000001-000001.meta
+Reading tf_records from 10 inputs
+Reading tf_records from 10 inputs
+Reading tf_records from 10 inputs
+
+python3 train.py /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-9.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-8.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-7.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-6.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-5.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-4.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-3.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-2.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-15.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-14.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-13.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-12.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-11.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-10.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-1.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-0.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000009.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000008.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000007.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000006.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000005.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000004.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000003.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000002.tfrecord.zz /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000001.tfrecord.zz --conv_width=32 --fc_width=64 --trunk_layers=9 --value_cost_weight=0.25 --summary_steps=64 --shuffle_buffer_size=10000 --filter_amount=0.5 --train_batch_size=8192 --lr_rates=0.32 --lr_rates=0.032 --lr_rates=0.0032 --lr_boundaries=12500 --lr_boundaries=18750 --l2_strength=0.0001 --work_dir=/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir --export_path=/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/models/000002-000002 --training_seed=3 --freeze=True --num_inter_threads=1 --num_intra_threads=2 --dist_train=True
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+:::MLL 1590510261.968037 global_batch_size: {"value": 8192, "metadata": {'lineno': 224, 'file': 'train.py'}}
+:::MLL 1590510261.968931 opt_base_learning_rate: {"value": [0.32, 0.032, 0.0032], "metadata": {'lineno': 225, 'file': 'train.py'}}
+:::MLL 1590510261.969792 opt_learning_rate_decay_boundary_steps: {"value": [12500, 18750], "metadata": {'lineno': 226, 'file': 'train.py'}}
+I0526 09:24:21.969859 140690358810432 train.py:229] Training on 25 records: /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-9.tfrecord.zz to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000001.tfrecord.zz
+WARNING:tensorflow:Using temporary folder as model directory: /home/u41625/tmp/tmp6f2w33wp
+W0526 09:24:21.972090 140690358810432 estimator.py:1760] Using temporary folder as model directory: /home/u41625/tmp/tmp6f2w33wp
+INFO:tensorflow:Using config: {'_model_dir': '/home/u41625/tmp/tmp6f2w33wp', '_tf_random_seed': None, '_save_summary_steps': 1000000, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': intra_op_parallelism_threads: 2
+inter_op_parallelism_threads: 1
+gpu_options {
+  allow_growth: true
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 1000000, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7ff4bc1506d0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+I0526 09:24:21.972891 140690358810432 estimator.py:201] Using config: {'_model_dir': '/home/u41625/tmp/tmp6f2w33wp', '_tf_random_seed': None, '_save_summary_steps': 1000000, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': intra_op_parallelism_threads: 2
+inter_op_parallelism_threads: 1
+gpu_options {
+  allow_growth: true
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 1000000, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7ff4bc1506d0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+I0526 09:24:21.973684 140690358810432 train.py:197] Training, steps = ?, batch = 2048 -> ? examples
+:::MLL 1590510261.975271 global_batch_size: {"value": 8192, "metadata": {'lineno': 224, 'file': 'train.py'}}
+:::MLL 1590510261.976195 opt_base_learning_rate: {"value": [0.32, 0.032, 0.0032], "metadata": {'lineno': 225, 'file': 'train.py'}}
+:::MLL 1590510261.977084 opt_learning_rate_decay_boundary_steps: {"value": [12500, 18750], "metadata": {'lineno': 226, 'file': 'train.py'}}
+I0526 09:24:21.977153 139643358312256 train.py:229] Training on 25 records: /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-9.tfrecord.zz to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000001.tfrecord.zz
+WARNING:tensorflow:Using temporary folder as model directory: /home/u41625/tmp/tmphdtch234
+W0526 09:24:21.981491 139643358312256 estimator.py:1760] Using temporary folder as model directory: /home/u41625/tmp/tmphdtch234
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:238: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+W0526 09:24:21.981895 140690358810432 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:238: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+INFO:tensorflow:Using config: {'_model_dir': '/home/u41625/tmp/tmphdtch234', '_tf_random_seed': None, '_save_summary_steps': 1000000, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': intra_op_parallelism_threads: 2
+inter_op_parallelism_threads: 1
+gpu_options {
+  allow_growth: true
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 1000000, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f00f58fa710>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+I0526 09:24:21.982329 139643358312256 estimator.py:201] Using config: {'_model_dir': '/home/u41625/tmp/tmphdtch234', '_tf_random_seed': None, '_save_summary_steps': 1000000, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': intra_op_parallelism_threads: 2
+inter_op_parallelism_threads: 1
+gpu_options {
+  allow_growth: true
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 1000000, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f00f58fa710>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+I0526 09:24:21.983055 139643358312256 train.py:197] Training, steps = ?, batch = 2048 -> ? examples
+:::MLL 1590510261.989778 global_batch_size: {"value": 8192, "metadata": {'lineno': 224, 'file': 'train.py'}}
+:::MLL 1590510261.990673 opt_base_learning_rate: {"value": [0.32, 0.032, 0.0032], "metadata": {'lineno': 225, 'file': 'train.py'}}
+:::MLL 1590510261.991504 opt_learning_rate_decay_boundary_steps: {"value": [12500, 18750], "metadata": {'lineno': 226, 'file': 'train.py'}}
+I0526 09:24:21.991564 139854300763968 train.py:229] Training on 25 records: /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-9.tfrecord.zz to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000001.tfrecord.zz
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:238: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+W0526 09:24:21.992158 139643358312256 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:238: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+INFO:tensorflow:Using config: {'_model_dir': '/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir', '_tf_random_seed': None, '_save_summary_steps': 64, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': intra_op_parallelism_threads: 2
+inter_op_parallelism_threads: 1
+gpu_options {
+  allow_growth: true
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 50, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f3212b62610>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+I0526 09:24:21.992874 139854300763968 estimator.py:201] Using config: {'_model_dir': '/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir', '_tf_random_seed': None, '_save_summary_steps': 64, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': intra_op_parallelism_threads: 2
+inter_op_parallelism_threads: 1
+gpu_options {
+  allow_growth: true
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 50, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f3212b62610>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+I0526 09:24:21.993879 139854300763968 train.py:197] Training, steps = ?, batch = 2048 -> ? examples
+WARNING:tensorflow:From ./preprocessing.py:140: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+W0526 09:24:21.994571 140690358810432 deprecation.py:323] From ./preprocessing.py:140: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:238: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+W0526 09:24:22.002570 139854300763968 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:238: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+WARNING:tensorflow:From ./preprocessing.py:140: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+W0526 09:24:22.004444 139643358312256 deprecation.py:323] From ./preprocessing.py:140: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+:::MLL 1590510262.010039 global_batch_size: {"value": 8192, "metadata": {'lineno': 224, 'file': 'train.py'}}
+:::MLL 1590510262.010917 opt_base_learning_rate: {"value": [0.32, 0.032, 0.0032], "metadata": {'lineno': 225, 'file': 'train.py'}}
+:::MLL 1590510262.011732 opt_learning_rate_decay_boundary_steps: {"value": [12500, 18750], "metadata": {'lineno': 226, 'file': 'train.py'}}
+I0526 09:24:22.011799 140178042177344 train.py:229] Training on 25 records: /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000001-000000-9.tfrecord.zz to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/golden_chunks/000000-000001.tfrecord.zz
+WARNING:tensorflow:Using temporary folder as model directory: /home/u41625/tmp/tmpztqovh0_
+W0526 09:24:22.013764 140178042177344 estimator.py:1760] Using temporary folder as model directory: /home/u41625/tmp/tmpztqovh0_
+INFO:tensorflow:Using config: {'_model_dir': '/home/u41625/tmp/tmpztqovh0_', '_tf_random_seed': None, '_save_summary_steps': 1000000, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': intra_op_parallelism_threads: 2
+inter_op_parallelism_threads: 1
+gpu_options {
+  allow_growth: true
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 1000000, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f7d7333f750>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+I0526 09:24:22.014555 140178042177344 estimator.py:201] Using config: {'_model_dir': '/home/u41625/tmp/tmpztqovh0_', '_tf_random_seed': None, '_save_summary_steps': 1000000, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': intra_op_parallelism_threads: 2
+inter_op_parallelism_threads: 1
+gpu_options {
+  allow_growth: true
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 1000000, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f7d7333f750>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+I0526 09:24:22.015270 140178042177344 train.py:197] Training, steps = ?, batch = 2048 -> ? examples
+WARNING:tensorflow:From ./preprocessing.py:140: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+W0526 09:24:22.016118 139854300763968 deprecation.py:323] From ./preprocessing.py:140: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:238: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+W0526 09:24:22.023769 140178042177344 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:238: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+WARNING:tensorflow:From ./preprocessing.py:140: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+W0526 09:24:22.036430 140178042177344 deprecation.py:323] From ./preprocessing.py:140: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+WARNING:tensorflow:From ./preprocessing.py:173: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+W0526 09:24:22.043540 140690358810432 deprecation.py:323] From ./preprocessing.py:173: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/util.py:104: DatasetV1.make_initializable_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_initializable_iterator(dataset)`.
+W0526 09:24:22.047921 140690358810432 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/util.py:104: DatasetV1.make_initializable_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_initializable_iterator(dataset)`.
+INFO:tensorflow:Calling model_fn.
+I0526 09:24:22.052231 140690358810432 estimator.py:1111] Calling model_fn.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+W0526 09:24:22.052340 140690358810432 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1257: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0526 09:24:22.053282 140690358810432 deprecation.py:506] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1257: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From ./preprocessing.py:173: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+W0526 09:24:22.054881 139643358312256 deprecation.py:323] From ./preprocessing.py:173: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/util.py:104: DatasetV1.make_initializable_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_initializable_iterator(dataset)`.
+W0526 09:24:22.059448 139643358312256 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/util.py:104: DatasetV1.make_initializable_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_initializable_iterator(dataset)`.
+INFO:tensorflow:Calling model_fn.
+I0526 09:24:22.063985 139643358312256 estimator.py:1111] Calling model_fn.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+W0526 09:24:22.064091 139643358312256 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From ./preprocessing.py:173: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+W0526 09:24:22.064530 139854300763968 deprecation.py:323] From ./preprocessing.py:173: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1257: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0526 09:24:22.065015 139643358312256 deprecation.py:506] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1257: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/util.py:104: DatasetV1.make_initializable_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_initializable_iterator(dataset)`.
+W0526 09:24:22.068847 139854300763968 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/util.py:104: DatasetV1.make_initializable_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_initializable_iterator(dataset)`.
+INFO:tensorflow:Calling model_fn.
+I0526 09:24:22.073092 139854300763968 estimator.py:1111] Calling model_fn.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+W0526 09:24:22.073196 139854300763968 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1257: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0526 09:24:22.074107 139854300763968 deprecation.py:506] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1257: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From ./preprocessing.py:173: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+W0526 09:24:22.085261 140178042177344 deprecation.py:323] From ./preprocessing.py:173: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/util.py:104: DatasetV1.make_initializable_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_initializable_iterator(dataset)`.
+W0526 09:24:22.089600 140178042177344 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/util.py:104: DatasetV1.make_initializable_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_initializable_iterator(dataset)`.
+INFO:tensorflow:Calling model_fn.
+I0526 09:24:22.093859 140178042177344 estimator.py:1111] Calling model_fn.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+W0526 09:24:22.093964 140178042177344 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1257: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0526 09:24:22.094887 140178042177344 deprecation.py:506] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1257: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.
+W0526 09:24:22.198527 140690358810432 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.
+W0526 09:24:22.225622 139643358312256 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.
+W0526 09:24:22.232297 139854300763968 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.
+W0526 09:24:22.245457 140178042177344 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:489: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:506: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+W0526 09:24:22.836916 140690358810432 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:506: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:506: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+W0526 09:24:22.852649 139643358312256 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:506: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:506: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+W0526 09:24:22.866475 139854300763968 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:506: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:506: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+W0526 09:24:22.872602 140178042177344 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:506: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/slot_creator.py:187: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0526 09:24:23.601433 140690358810432 deprecation.py:506] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/slot_creator.py:187: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/slot_creator.py:187: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0526 09:24:23.630448 139854300763968 deprecation.py:506] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/slot_creator.py:187: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/slot_creator.py:187: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0526 09:24:23.651465 140178042177344 deprecation.py:506] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/slot_creator.py:187: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/slot_creator.py:187: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0526 09:24:23.659680 139643358312256 deprecation.py:506] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/slot_creator.py:187: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:311: The name tf.log is deprecated. Please use tf.math.log instead.
+
+W0526 09:24:23.966757 140690358810432 deprecation.py:237] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:311: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:317: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0526 09:24:23.971299 140690358810432 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:317: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:311: The name tf.log is deprecated. Please use tf.math.log instead.
+
+W0526 09:24:23.986817 140178042177344 deprecation.py:237] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:311: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:317: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0526 09:24:23.991266 140178042177344 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:317: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:311: The name tf.log is deprecated. Please use tf.math.log instead.
+
+W0526 09:24:23.991766 139854300763968 deprecation.py:237] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:311: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:317: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0526 09:24:23.996220 139854300763968 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:317: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:311: The name tf.log is deprecated. Please use tf.math.log instead.
+
+W0526 09:24:24.021575 139643358312256 deprecation.py:237] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:311: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:317: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0526 09:24:24.026301 139643358312256 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:317: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:363: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0526 09:24:24.301276 140690358810432 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:363: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+INFO:tensorflow:Done calling model_fn.
+I0526 09:24:24.306667 140690358810432 estimator.py:1113] Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+I0526 09:24:24.307734 140690358810432 basic_session_run_hooks.py:527] Create CheckpointSaverHook.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:363: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0526 09:24:24.312863 140178042177344 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:363: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+INFO:tensorflow:Done calling model_fn.
+I0526 09:24:24.317745 140178042177344 estimator.py:1113] Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+I0526 09:24:24.318695 140178042177344 basic_session_run_hooks.py:527] Create CheckpointSaverHook.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:363: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0526 09:24:24.319584 139854300763968 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:363: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+INFO:tensorflow:Done calling model_fn.
+I0526 09:24:24.325059 139854300763968 estimator.py:1113] Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+I0526 09:24:24.326162 139854300763968 basic_session_run_hooks.py:527] Create CheckpointSaverHook.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:363: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0526 09:24:24.369940 139643358312256 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:363: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+INFO:tensorflow:Done calling model_fn.
+I0526 09:24:24.375190 139643358312256 estimator.py:1113] Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+I0526 09:24:24.376242 139643358312256 basic_session_run_hooks.py:527] Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+I0526 09:24:25.223555 139854300763968 monitored_session.py:237] Graph was finalized.
+2020-05-26 09:24:25.223844: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  AVX512F
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+W0526 09:24:25.228290 139854300763968 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+INFO:tensorflow:Restoring parameters from /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir/model.ckpt-9608
+I0526 09:24:25.269006 139854300763968 saver.py:1280] Restoring parameters from /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir/model.ckpt-9608
+INFO:tensorflow:Graph was finalized.
+I0526 09:24:25.430463 140178042177344 monitored_session.py:237] Graph was finalized.
+2020-05-26 09:24:25.430769: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  AVX512F
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+INFO:tensorflow:Graph was finalized.
+I0526 09:24:25.495359 140690358810432 monitored_session.py:237] Graph was finalized.
+2020-05-26 09:24:25.495651: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  AVX512F
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+INFO:tensorflow:Graph was finalized.
+I0526 09:24:25.554725 139643358312256 monitored_session.py:237] Graph was finalized.
+2020-05-26 09:24:25.555040: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  AVX512F
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+W0526 09:24:25.588531 139854300763968 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+INFO:tensorflow:Running local_init_op.
+I0526 09:24:25.733803 139854300763968 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0526 09:24:25.834886 139854300763968 session_manager.py:502] Done running local_init_op.
+INFO:tensorflow:Running local_init_op.
+I0526 09:24:26.042441 140178042177344 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Running local_init_op.
+I0526 09:24:26.075426 140690358810432 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Running local_init_op.
+I0526 09:24:26.138114 139643358312256 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0526 09:24:26.139963 140178042177344 session_manager.py:502] Done running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0526 09:24:26.167195 140690358810432 session_manager.py:502] Done running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0526 09:24:26.234798 139643358312256 session_manager.py:502] Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 9608 into /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir/model.ckpt.
+I0526 09:24:27.224575 139854300763968 basic_session_run_hooks.py:594] Saving checkpoints for 9608 into /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir/model.ckpt.
+INFO:tensorflow:Saving checkpoints for 0 into /home/u41625/tmp/tmpztqovh0_/model.ckpt.
+I0526 09:24:27.574202 140178042177344 basic_session_run_hooks.py:594] Saving checkpoints for 0 into /home/u41625/tmp/tmpztqovh0_/model.ckpt.
+INFO:tensorflow:Saving checkpoints for 0 into /home/u41625/tmp/tmp6f2w33wp/model.ckpt.
+I0526 09:24:27.589062 140690358810432 basic_session_run_hooks.py:594] Saving checkpoints for 0 into /home/u41625/tmp/tmp6f2w33wp/model.ckpt.
+INFO:tensorflow:Saving checkpoints for 0 into /home/u41625/tmp/tmphdtch234/model.ckpt.
+I0526 09:24:27.643183 139643358312256 basic_session_run_hooks.py:594] Saving checkpoints for 0 into /home/u41625/tmp/tmphdtch234/model.ckpt.
+INFO:tensorflow:loss = 3.0204566, step = 9609
+I0526 09:24:34.959417 139854300763968 basic_session_run_hooks.py:249] loss = 3.0204566, step = 9609
+INFO:tensorflow:loss = 3.038461, step = 9609
+I0526 09:24:34.961014 140690358810432 basic_session_run_hooks.py:249] loss = 3.038461, step = 9609
+INFO:tensorflow:loss = 3.0441914, step = 9609
+I0526 09:24:35.004880 139643358312256 basic_session_run_hooks.py:249] loss = 3.0441914, step = 9609
+INFO:tensorflow:loss = 3.0226438, step = 9609
+I0526 09:24:35.009377 140178042177344 basic_session_run_hooks.py:249] loss = 3.0226438, step = 9609
+INFO:tensorflow:global_step/sec: 0.639033
+I0526 09:25:53.202082 139854300763968 basic_session_run_hooks.py:679] global_step/sec: 0.639033
+INFO:tensorflow:loss = 3.080646, step = 9659 (78.244 sec)
+I0526 09:25:53.203343 139854300763968 basic_session_run_hooks.py:247] loss = 3.080646, step = 9659 (78.244 sec)
+INFO:tensorflow:global_step/sec: 0.668206
+I0526 09:27:08.029078 140690358810432 train.py:94] 9709: 0.653 steps per second
+INFO:tensorflow:global_step/sec: 0.653304
+I0526 09:27:08.030502 140690358810432 basic_session_run_hooks.py:679] global_step/sec: 0.653304
+I0526 09:27:08.029130 139854300763968 basic_session_run_hooks.py:679] global_step/sec: 0.668206
+I0526 09:27:08.033331 139854300763968 train.py:94] 9709: 0.653 steps per second
+INFO:tensorflow:global_step/sec: 0.653279
+I0526 09:27:08.033655 139854300763968 basic_session_run_hooks.py:679] global_step/sec: 0.653279
+INFO:tensorflow:loss = 3.0914865, step = 9709 (74.831 sec)
+I0526 09:27:08.034092 139854300763968 basic_session_run_hooks.py:247] loss = 3.0914865, step = 9709 (74.831 sec)
+I0526 09:27:08.069162 140178042177344 train.py:94] 9709: 0.653 steps per second
+INFO:tensorflow:global_step/sec: 0.653338
+I0526 09:27:08.069723 140178042177344 basic_session_run_hooks.py:679] global_step/sec: 0.653338
+I0526 09:27:08.070495 139643358312256 train.py:94] 9709: 0.653 steps per second
+INFO:tensorflow:global_step/sec: 0.653314
+I0526 09:27:08.071998 139643358312256 basic_session_run_hooks.py:679] global_step/sec: 0.653314
+INFO:tensorflow:global_step/sec: 0.684282
+I0526 09:28:21.098422 139854300763968 basic_session_run_hooks.py:679] global_step/sec: 0.684282
+INFO:tensorflow:loss = 3.121633, step = 9759 (73.066 sec)
+I0526 09:28:21.100033 139854300763968 basic_session_run_hooks.py:247] loss = 3.121633, step = 9759 (73.066 sec)
+INFO:tensorflow:global_step/sec: 0.683785
+I0526 09:29:34.220834 140690358810432 train.py:94] 9809: 0.684 steps per second
+I0526 09:29:34.220667 139854300763968 basic_session_run_hooks.py:679] global_step/sec: 0.683785
+INFO:tensorflow:global_step/sec: 0.684033
+I0526 09:29:34.222439 139854300763968 train.py:94] 9809: 0.684 steps per second
+INFO:tensorflow:global_step/sec: 0.684045
+I0526 09:29:34.222753 139854300763968 basic_session_run_hooks.py:679] global_step/sec: 0.684045
+I0526 09:29:34.222256 140690358810432 basic_session_run_hooks.py:679] global_step/sec: 0.684033
+INFO:tensorflow:loss = 3.0733955, step = 9809 (73.123 sec)
+I0526 09:29:34.223186 139854300763968 basic_session_run_hooks.py:247] loss = 3.0733955, step = 9809 (73.123 sec)
+I0526 09:29:34.254596 140178042177344 train.py:94] 9809: 0.684 steps per second
+INFO:tensorflow:global_step/sec: 0.684063
+I0526 09:29:34.255940 140178042177344 basic_session_run_hooks.py:679] global_step/sec: 0.684063
+I0526 09:29:34.277511 139643358312256 train.py:94] 9809: 0.684 steps per second
+INFO:tensorflow:global_step/sec: 0.683961
+I0526 09:29:34.278142 139643358312256 basic_session_run_hooks.py:679] global_step/sec: 0.683961
+INFO:tensorflow:Saving checkpoints for 9833 into /home/u41625/tmp/tmpztqovh0_/model.ckpt.
+I0526 09:30:08.899983 140178042177344 basic_session_run_hooks.py:594] Saving checkpoints for 9833 into /home/u41625/tmp/tmpztqovh0_/model.ckpt.
+INFO:tensorflow:Saving checkpoints for 9833 into /home/u41625/tmp/tmp6f2w33wp/model.ckpt.
+I0526 09:30:08.900868 140690358810432 basic_session_run_hooks.py:594] Saving checkpoints for 9833 into /home/u41625/tmp/tmp6f2w33wp/model.ckpt.
+INFO:tensorflow:Saving checkpoints for 9833 into /home/u41625/tmp/tmphdtch234/model.ckpt.
+I0526 09:30:08.901676 139643358312256 basic_session_run_hooks.py:594] Saving checkpoints for 9833 into /home/u41625/tmp/tmphdtch234/model.ckpt.
+INFO:tensorflow:Saving checkpoints for 9833 into /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir/model.ckpt.
+I0526 09:30:08.903545 139854300763968 basic_session_run_hooks.py:594] Saving checkpoints for 9833 into /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir/model.ckpt.
+INFO:tensorflow:Loss for final step: 3.1350746.
+I0526 09:30:09.354145 140178042177344 estimator.py:359] Loss for final step: 3.1350746.
+I0526 09:30:09.354762 140178042177344 utils.py:86] Training: 347.343 seconds
+INFO:tensorflow:Loss for final step: 3.1514938.
+I0526 09:30:09.355983 140690358810432 estimator.py:359] Loss for final step: 3.1514938.
+I0526 09:30:09.356691 140690358810432 utils.py:86] Training: 347.387 seconds
+INFO:tensorflow:Loss for final step: 3.1306477.
+I0526 09:30:09.363408 139643358312256 estimator.py:359] Loss for final step: 3.1306477.
+I0526 09:30:09.363977 139643358312256 utils.py:86] Training: 347.387 seconds
+INFO:tensorflow:Loss for final step: 3.1386852.
+I0526 09:30:09.374103 139854300763968 estimator.py:359] Loss for final step: 3.1386852.
+I0526 09:30:09.374867 139854300763968 utils.py:86] Training: 347.383 seconds
+INFO:tensorflow:Using default config.
+I0526 09:30:09.375668 139854300763968 estimator.py:1739] Using default config.
+INFO:tensorflow:Using config: {'_model_dir': '/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f316329a890>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+I0526 09:30:09.376234 139854300763968 estimator.py:201] Using config: {'_model_dir': '/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f316329a890>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+I0526 09:30:09.453003 139854300763968 dual_net.py:192] TPU inference is supported on C++ only. DualNetwork will ignore use_tpu=True
+INFO:tensorflow:Restoring parameters from /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/models/000002-000002
+I0526 09:30:11.351493 139854300763968 saver.py:1280] Restoring parameters from /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/models/000002-000002
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:728: convert_variables_to_constants (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.convert_variables_to_constants`
+W0526 09:30:11.667667 139854300763968 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/dual_net.py:728: convert_variables_to_constants (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.convert_variables_to_constants`
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/graph_util_impl.py:270: extract_sub_graph (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.extract_sub_graph`
+W0526 09:30:11.667863 139854300763968 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/graph_util_impl.py:270: extract_sub_graph (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.extract_sub_graph`
+INFO:tensorflow:Froze 107 variables.
+I0526 09:30:11.786950 139854300763968 graph_util_impl.py:311] Froze 107 variables.
+INFO:tensorflow:Converted 107 variables to const ops.
+I0526 09:30:11.796303 139854300763968 graph_util_impl.py:364] Converted 107 variables to const ops.
+WARNING:tensorflow:From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/tools/optimize_for_inference_lib.py:113: remove_training_nodes (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.remove_training_nodes`
+W0526 09:30:11.810770 139854300763968 deprecation.py:323] From /home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/tools/optimize_for_inference_lib.py:113: remove_training_nodes (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.remove_training_nodes`Reading tf_records from 25 inputs
+Copying /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir/model.ckpt-9833.data-00000-of-00001 to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/models/000002-000002.data-00000-of-00001
+Copying /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir/model.ckpt-9833.index to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/models/000002-000002.index
+Copying /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/work_dir/model.ckpt-9833.meta to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/models/000002-000002.meta
+Reading tf_records from 25 inputs
+Reading tf_records from 25 inputs
+Reading tf_records from 25 inputs
+

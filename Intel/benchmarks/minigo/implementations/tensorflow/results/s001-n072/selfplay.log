@@ -1,0 +1,3588 @@
+python3 ml_perf/execute.py --num_instance=512 -- bazel-bin/cc/selfplay --flagfile=/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/flags/selfplay.flags --model=tf,/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/models/checkpoint.pb --output_dir=/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/selfplay/000001-000000 --holdout_dir=/home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n072/data/holdout/000001-000000 --seed=2
+do_execute_mi
+copying finished
+num_instance>1
+Thread 169 stopping
+Played 8 games, total time 807.091 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       4       0       0
+Ran 5834 batches with an average size of 29.8726
+
+Thread 140 stopping
+Played 8 games, total time 812.554 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       2       2       0
+Ran 5944 batches with an average size of 29.7155
+
+Thread 42 stopping
+Played 8 games, total time 824.474 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       1       3       0
+Ran 6004 batches with an average size of 28.8752
+
+Thread 89 stopping
+Played 8 games, total time 835.712 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 6058 batches with an average size of 28.6377
+
+Thread 60 stopping
+Played 8 games, total time 836.215 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       4       3       0       1       1       0       0
+Ran 6264 batches with an average size of 29.621
+
+Thread 186 stopping
+Played 8 games, total time 837.809 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       0       1       0
+Ran 6115 batches with an average size of 28.9833
+
+Thread 49 stopping
+Played 8 games, total time 848.206 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       1       4       0
+Ran 6154 batches with an average size of 28.9184
+
+Thread 177 stopping
+Played 8 games, total time 857.152 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       5       0       0
+Ran 6279 batches with an average size of 29.3483
+
+Thread 107 stopping
+Played 8 games, total time 869.654 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       1       1       0
+Ran 6303 batches with an average size of 29.4301
+
+Thread 1 stopping
+Played 8 games, total time 871.026 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       3       1       0
+Ran 6421 batches with an average size of 29.1363
+
+Thread 85 stopping
+Played 8 games, total time 871.559 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       3       1       0
+Ran 6299 batches with an average size of 29.5369
+
+Thread 13 stopping
+Played 8 games, total time 874.357 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       3       3       0       2       1       1       0
+Ran 6422 batches with an average size of 30.3829
+
+Thread 23 stopping
+Played 8 games, total time 881.15 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       1       2       0
+Ran 6485 batches with an average size of 27.0873
+
+Thread 29 stopping
+Played 8 games, total time 881.697 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       1       3       0       4       3       1       0
+Ran 6480 batches with an average size of 28.3883
+
+Thread 76 stopping
+Played 8 games, total time 882.109 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       3       2       0
+Ran 6446 batches with an average size of 28.7811
+
+Thread 102 stopping
+Played 8 games, total time 885.585 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       1       3       0
+Ran 6504 batches with an average size of 28.5626
+
+Thread 67 stopping
+Played 8 games, total time 891.979 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       3       0       0
+Ran 6528 batches with an average size of 29.4822
+
+Thread 135 stopping
+Played 8 games, total time 892.961 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       2       1       0
+Ran 6510 batches with an average size of 28.1899
+
+Thread 162 stopping
+Played 8 games, total time 900.211 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       2       2       0
+Ran 6603 batches with an average size of 26.2649
+
+Thread 33 stopping
+Played 8 games, total time 923.076 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       1       2       0
+Ran 6718 batches with an average size of 28.3154
+
+Thread 113 stopping
+Played 8 games, total time 934.888 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       1       2       0
+Ran 6921 batches with an average size of 25.2359
+
+Thread 153 stopping
+Played 8 games, total time 940.517 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       2       3       0
+Ran 6860 batches with an average size of 28.1226
+
+Thread 125 stopping
+Played 8 games, total time 961.702 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 7042 batches with an average size of 27.0835
+
+Thread 147 stopping
+Played 8 games, total time 962.199 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       1       3       0
+Ran 7052 batches with an average size of 28.0576
+
+Thread 202 stopping
+Played 8 games, total time 813.284 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       0       1       0
+Ran 5902 batches with an average size of 30.2103
+
+Thread 286 stopping
+Played 8 games, total time 807.261 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       3       0       0
+Ran 5890 batches with an average size of 30.1778
+
+Thread 231 stopping
+Played 8 games, total time 846.02 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       5       0       0
+Ran 6171 batches with an average size of 29.1902
+
+Thread 249 stopping
+Played 8 games, total time 830.901 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       3       0       0
+Ran 6108 batches with an average size of 27.7341
+
+Thread 245 stopping
+Played 8 games, total time 846.39 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       3       1       0
+Ran 6131 batches with an average size of 30.0758
+
+Thread 220 stopping
+Played 8 games, total time 862.382 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       3       0       0
+Ran 6253 batches with an average size of 28.5156
+
+Thread 193 stopping
+Played 8 games, total time 910.327 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       1       0       0
+Ran 6664 batches with an average size of 29.7752
+
+Thread 311 stopping
+Played 8 games, total time 840.684 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       1       2       0
+Ran 6230 batches with an average size of 28.7668
+
+Thread 208 stopping
+Played 8 games, total time 912.173 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       4       0       0
+Ran 6682 batches with an average size of 28.7424
+
+Thread 266 stopping
+Played 8 games, total time 866.538 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       3       0       0
+Ran 6353 batches with an average size of 29.0792
+
+Thread 322 stopping
+Played 8 games, total time 850.611 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 6237 batches with an average size of 27.999
+
+Thread 279 stopping
+Played 8 games, total time 873.746 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       6       0       0       2       1       1       0
+Ran 6371 batches with an average size of 29.0931
+
+Thread 289 stopping
+Played 8 games, total time 870.713 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       0       1       0
+Ran 6460 batches with an average size of 29.5533
+
+Thread 313 stopping
+Played 8 games, total time 880.183 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       1       2       0
+Ran 6414 batches with an average size of 27.9989
+
+Thread 329 stopping
+Played 8 games, total time 883.998 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       2       3       0       3       0       3       0
+Ran 6363 batches with an average size of 29.3748
+
+Thread 351 stopping
+Played 8 games, total time 877.599 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       2       0       0
+Ran 6507 batches with an average size of 27.4395
+
+Thread 256 stopping
+Played 8 games, total time 934.401 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 6848 batches with an average size of 26.901
+
+Thread 370 stopping
+Played 8 games, total time 846.936 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       1       3       0       4       3       1       0
+Ran 6130 batches with an average size of 28.8617
+
+Thread 366 stopping
+Played 8 games, total time 874.221 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       6       0       0       2       2       0       0
+Ran 6372 batches with an average size of 28.2323
+
+Thread 343 stopping
+Played 8 games, total time 920.332 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       3       3       0       2       1       1       0
+Ran 6711 batches with an average size of 28.4074
+
+Thread 234 stopping
+Played 8 games, total time 986.217 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       4       0       0
+Ran 7318 batches with an average size of 26.9576
+
+Thread 382 stopping
+Played 8 games, total time 861.793 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 6415 batches with an average size of 29.4263
+
+Thread 358 stopping
+Played 8 games, total time 896.827 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       1       3       0       4       1       3       0
+Ran 6593 batches with an average size of 28.6252
+
+Thread 302 stopping
+Played 8 games, total time 1038.33 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       2       1       0
+Ran 7691 batches with an average size of 26.5623
+
+Thread 386 stopping
+Played 8 games, total time 870.439 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       3       3       0       2       0       2       0
+Ran 6452 batches with an average size of 28.0482
+
+Thread 426 stopping
+Played 8 games, total time 819.788 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       1       1       0       6       2       4       0
+Ran 5984 batches with an average size of 27.1486
+
+Thread 432 stopping
+Played 8 games, total time 812.569 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       1       1       0
+Ran 5951 batches with an average size of 29.6508
+
+Thread 412 stopping
+Played 8 games, total time 850.541 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       2       1       0
+Ran 6166 batches with an average size of 28.7525
+
+Thread 398 stopping
+Played 8 games, total time 885.309 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       6       1       0       1       0       1       0
+Ran 6546 batches with an average size of 28.6039
+
+Thread 463 stopping
+Played 8 games, total time 844.92 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 6263 batches with an average size of 29.202
+
+Thread 407 stopping
+Played 8 games, total time 912.778 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       3       1       0
+Ran 6691 batches with an average size of 27.8277
+
+Thread 446 stopping
+Played 8 games, total time 877.876 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       2       0       0       6       1       5       0
+Ran 6399 batches with an average size of 30.3094
+
+Thread 417 stopping
+Played 8 games, total time 907.442 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       3       1       0
+Ran 6649 batches with an average size of 29.6353
+
+Thread 495 stopping
+Played 8 games, total time 837.487 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       1       0       0
+Ran 6063 batches with an average size of 29.2342
+
+Thread 500 stopping
+Played 8 games, total time 844.709 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       2       3       0
+Ran 6222 batches with an average size of 29.1308
+
+Thread 534 stopping
+Played 8 games, total time 818.875 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       3       2       0
+Ran 5985 batches with an average size of 30.1945
+
+Thread 512 stopping
+Played 8 games, total time 838.388 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       1       2       0       5       3       2       0
+Ran 6115 batches with an average size of 30.1035
+
+Thread 509 stopping
+Played 8 games, total time 853.614 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       3       0       0
+Ran 6235 batches with an average size of 28.6459
+
+Thread 469 stopping
+Played 8 games, total time 940.434 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       3       2       0
+Ran 6883 batches with an average size of 27.1094
+
+Thread 484 stopping
+Played 8 games, total time 936.338 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       6       1       0       1       1       0       0
+Ran 6938 batches with an average size of 26.9974
+
+Thread 472 stopping
+Played 8 games, total time 961.59 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       1       2       0       5       3       2       0
+Ran 7003 batches with an average size of 26.5101
+
+Thread 451 stopping
+Played 8 games, total time 970.413 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       1       1       0
+Ran 7218 batches with an average size of 26.3178
+
+Thread 525 stopping
+Played 8 games, total time 919.332 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       2       1       0
+Ran 6707 batches with an average size of 27.7354
+
+Thread 550 stopping
+Played 8 games, total time 905.641 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       0       1       0
+Ran 6667 batches with an average size of 28.9351
+
+Thread 536 stopping
+Played 8 games, total time 921.399 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       3       1       0
+Ran 6789 batches with an average size of 28.4406
+
+Thread 570 stopping
+Played 8 games, total time 825.888 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       1       3       0
+Ran 6048 batches with an average size of 28.2546
+
+Thread 562 stopping
+Played 8 games, total time 920.088 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       0       2       0       6       5       1       0
+Ran 6712 batches with an average size of 28.5785
+
+Thread 554 stopping
+Played 8 games, total time 955.877 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       3       1       0
+Ran 7042 batches with an average size of 27.4416
+
+Thread 581 stopping
+Played 8 games, total time 911.723 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       3       0       0
+Ran 6654 batches with an average size of 29.0009
+
+Thread 600 stopping
+Played 8 games, total time 872.447 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       4       1       0
+Ran 6351 batches with an average size of 28.5262
+
+Thread 585 stopping
+Played 8 games, total time 895.153 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       2       1       0
+Ran 6646 batches with an average size of 27.2895
+
+Thread 644 stopping
+Played 8 games, total time 820.764 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       1       2       0
+Ran 5992 batches with an average size of 29.5342
+
+Thread 649 stopping
+Played 8 games, total time 833.875 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       1       1       0
+Ran 6126 batches with an average size of 29.3676
+
+Thread 668 stopping
+Played 8 games, total time 812.496 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       1       2       0
+Ran 5988 batches with an average size of 26.7884
+
+Thread 598 stopping
+Played 8 games, total time 932.674 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       3       2       0
+Ran 7023 batches with an average size of 27.3068
+
+Thread 618 stopping
+Played 8 games, total time 882.356 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       6       0       0       2       2       0       0
+Ran 6511 batches with an average size of 28.7357
+
+Thread 627 stopping
+Played 8 games, total time 878.796 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       3       0       0
+Ran 6458 batches with an average size of 28.3411
+
+Thread 709 stopping
+Played 8 games, total time 790.478 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       6       1       0       1       1       0       0
+Ran 5779 batches with an average size of 27.0902
+
+Thread 634 stopping
+Played 8 games, total time 898.189 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       3       2       0
+Ran 6632 batches with an average size of 29.288
+
+Thread 662 stopping
+Played 8 games, total time 882.719 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       2       1       0
+Ran 6563 batches with an average size of 28.6413
+
+Thread 681 stopping
+Played 8 games, total time 863.802 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       4       2       0       2       1       1       0
+Ran 6309 batches with an average size of 27.4864
+
+Thread 695 stopping
+Played 8 games, total time 837.843 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       2       0       0       6       3       3       0
+Ran 6114 batches with an average size of 29.4805
+
+Thread 608 stopping
+Played 8 games, total time 957.869 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       2       2       0
+Ran 7000 batches with an average size of 27.953
+
+Thread 732 stopping
+Played 8 games, total time 803.554 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       2       0       0
+Ran 5785 batches with an average size of 29.8501
+
+Thread 725 stopping
+Played 8 games, total time 819.653 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       1       1       0
+Ran 6087 batches with an average size of 29.2131
+
+Thread 737 stopping
+Played 8 games, total time 808.718 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       6       0       0       2       0       2       0
+Ran 5999 batches with an average size of 29.8581
+
+Thread 675 stopping
+Played 8 games, total time 943.325 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       1       4       0
+Ran 7028 batches with an average size of 29.1118
+
+Thread 712 stopping
+Played 8 games, total time 895.892 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       3       4       0       1       0       1       0
+Ran 6506 batches with an average size of 29.504
+
+Thread 701 stopping
+Played 8 games, total time 924.862 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       1       3       0       4       3       1       0
+Ran 6783 batches with an average size of 26.4902
+
+Thread 767 stopping
+Played 8 games, total time 888.999 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       1       1       0       6       4       2       0
+Ran 6549 batches with an average size of 28.3297
+
+Thread 753 stopping
+Played 8 games, total time 987.511 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       3       2       0
+Ran 7217 batches with an average size of 26.2252
+
+Thread 750 stopping
+Played 8 games, total time 1094.8 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       3       1       0
+Ran 8110 batches with an average size of 24.3467
+
+Thread 809 stopping
+Played 8 games, total time 834.913 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       2       1       0
+Ran 6094 batches with an average size of 29.764
+
+Thread 792 stopping
+Played 8 games, total time 876.906 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       2       3       0       3       3       0       0
+Ran 6477 batches with an average size of 29.3898
+
+Thread 889 stopping
+Played 8 games, total time 783.33 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       3       1       0
+Ran 5760 batches with an average size of 30.2552
+
+Thread 778 stopping
+Played 8 games, total time 908.416 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       2       2       0
+Ran 6705 batches with an average size of 28.2476
+
+Thread 784 stopping
+Played 8 games, total time 921.524 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 6762 batches with an average size of 26.9249
+
+Thread 866 stopping
+Played 8 games, total time 819.244 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       2       1       0
+Ran 5959 batches with an average size of 30.0456
+
+Thread 769 stopping
+Played 8 games, total time 937.762 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       3       2       0
+Ran 6944 batches with an average size of 26.2493
+
+Thread 863 stopping
+Played 8 games, total time 847.934 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       1       3       0
+Ran 6192 batches with an average size of 29.0317
+
+Thread 827 stopping
+Played 8 games, total time 888.397 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       2       3       0       3       2       1       0
+Ran 6469 batches with an average size of 29.2982
+
+Thread 837 stopping
+Played 8 games, total time 884.281 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       2       0       0
+Ran 6515 batches with an average size of 29.2858
+
+Thread 805 stopping
+Played 8 games, total time 926.957 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       2       1       0
+Ran 6833 batches with an average size of 29.2314
+
+Thread 902 stopping
+Played 8 games, total time 862.482 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       2       5       0       1       1       0       0
+Ran 6348 batches with an average size of 29.1482
+
+Thread 927 stopping
+Played 8 games, total time 822.517 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       2       1       0
+Ran 6071 batches with an average size of 29.3433
+
+Thread 853 stopping
+Played 8 games, total time 934.535 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       6       0       0       2       2       0       0
+Ran 6909 batches with an average size of 27.8858
+
+Thread 878 stopping
+Played 8 games, total time 930.169 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       1       3       0
+Ran 6745 batches with an average size of 27.4952
+
+Thread 844 stopping
+Played 8 games, total time 966.821 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       3       1       0
+Ran 7024 batches with an average size of 28.6018
+
+Thread 883 stopping
+Played 8 games, total time 943.046 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       2       0       0       6       3       3       0
+Ran 6935 batches with an average size of 27.2705
+
+Thread 817 stopping
+Played 8 games, total time 1012.06 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       4       1       0
+Ran 7485 batches with an average size of 25.5405
+
+Thread 912 stopping
+Played 8 games, total time 933.937 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       4       0       0
+Ran 6880 batches with an average size of 26.2167
+
+Thread 945 stopping
+Played 8 games, total time 795.706 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       1       1       0       6       5       1       0
+Ran 5785 batches with an average size of 28.8446
+
+Thread 934 stopping
+Played 8 games, total time 950.096 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       1       3       0
+Ran 7035 batches with an average size of 26.3781
+
+Thread 904 stopping
+Played 8 games, total time 1047.15 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       3       0       0
+Ran 7700 batches with an average size of 25.1716
+
+Thread 937 stopping
+Played 8 games, total time 980.134 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       4       2       0       2       2       0       0
+Ran 7277 batches with an average size of 26.7936
+
+Thread 954 stopping
+Played 8 games, total time 872.67 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       1       2       0
+Ran 6373 batches with an average size of 28.2285
+
+Thread 991 stopping
+Played 8 games, total time 843.706 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       2       2       0
+Ran 6174 batches with an average size of 29.5551
+
+Thread 962 stopping
+Played 8 games, total time 881.638 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       2       0       0       6       3       3       0
+Ran 6370 batches with an average size of 29.7297
+
+Thread 1032 stopping
+Played 8 games, total time 817.53 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       6       1       0       1       1       0       0
+Ran 5950 batches with an average size of 28.8704
+
+Thread 973 stopping
+Played 8 games, total time 875.881 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       1       3       0
+Ran 6462 batches with an average size of 28.4859
+
+Thread 1008 stopping
+Played 8 games, total time 856.41 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 6368 batches with an average size of 28.8866
+
+Thread 1042 stopping
+Played 8 games, total time 842.804 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 6148 batches with an average size of 28.6578
+
+Thread 1002 stopping
+Played 8 games, total time 869.567 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       4       0       0
+Ran 6316 batches with an average size of 29.925
+
+Thread 1028 stopping
+Played 8 games, total time 856.186 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       1       3       0
+Ran 6246 batches with an average size of 29.0272
+
+Thread 1051 stopping
+Played 8 games, total time 802.123 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       1       2       0
+Ran 5847 batches with an average size of 30.7243
+
+Thread 1076 stopping
+Played 8 games, total time 782.557 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       3       1       0
+Ran 5728 batches with an average size of 29.8769
+
+Thread 992 stopping
+Played 8 games, total time 943.023 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       3       0       0
+Ran 6846 batches with an average size of 29.4883
+
+Thread 976 stopping
+Played 8 games, total time 962.643 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 7050 batches with an average size of 27.5999
+
+Thread 1068 stopping
+Played 8 games, total time 861.601 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       6       0       0       2       2       0       0
+Ran 6329 batches with an average size of 29.3644
+
+Thread 1099 stopping
+Played 8 games, total time 848.32 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       2       4       0       2       1       1       0
+Ran 6234 batches with an average size of 29.8495
+
+Thread 1062 stopping
+Played 8 games, total time 911.409 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       3       1       0
+Ran 6620 batches with an average size of 28.2426
+
+Thread 1083 stopping
+Played 8 games, total time 881.02 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       3       1       0
+Ran 6401 batches with an average size of 28.479
+
+Thread 1094 stopping
+Played 8 games, total time 913.036 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       1       1       0       6       6       0       0
+Ran 6726 batches with an average size of 28.4453
+
+Thread 1020 stopping
+Played 8 games, total time 1044.79 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       1       3       0
+Ran 7710 batches with an average size of 25.9359
+
+Thread 1113 stopping
+Played 8 games, total time 866.184 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       2       4       0       2       0       2       0
+Ran 6366 batches with an average size of 28.7658
+
+Thread 1122 stopping
+Played 8 games, total time 857.584 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 6313 batches with an average size of 28.9075
+
+Thread 1108 stopping
+Played 8 games, total time 931.926 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       1       2       0
+Ran 6794 batches with an average size of 28.9885
+
+Thread 1149 stopping
+Played 8 games, total time 824.116 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       1       0       0
+Ran 6126 batches with an average size of 29.2362
+
+Thread 1143 stopping
+Played 8 games, total time 891.855 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       4       0       0
+Ran 6495 batches with an average size of 28.7637
+
+Thread 1128 stopping
+Played 8 games, total time 976.533 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       2       0       0       6       4       2       0
+Ran 7213 batches with an average size of 26.7352
+
+Thread 1162 stopping
+Played 8 games, total time 859.017 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       1       2       0
+Ran 6296 batches with an average size of 28.8266
+
+Thread 1187 stopping
+Played 8 games, total time 830.082 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       2       1       0
+Ran 6171 batches with an average size of 28.7861
+
+Thread 1170 stopping
+Played 8 games, total time 881.001 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       0       4       0
+Ran 6412 batches with an average size of 28.3946
+
+Thread 1194 stopping
+Played 8 games, total time 855.685 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       1       2       0
+Ran 6230 batches with an average size of 28.2493
+
+Thread 1158 stopping
+Played 8 games, total time 906.846 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       3       4       0       1       0       1       0
+Ran 6762 batches with an average size of 28.4663
+
+Thread 1179 stopping
+Played 8 games, total time 899.8 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       2       4       0       2       1       1       0
+Ran 6650 batches with an average size of 26.7898
+
+Thread 1205 stopping
+Played 8 games, total time 898.236 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       2       2       0
+Ran 6551 batches with an average size of 28.544
+
+Thread 1227 stopping
+Played 8 games, total time 917.539 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       2       2       0
+Ran 6644 batches with an average size of 27.5044
+
+Thread 1241 stopping
+Played 8 games, total time 881.534 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       0       3       0
+Ran 6445 batches with an average size of 28.7881
+
+Thread 1287 stopping
+Played 8 games, total time 786.2 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       1       2       0       5       3       2       0
+Ran 5744 batches with an average size of 30.489
+
+Thread 1251 stopping
+Played 8 games, total time 876.124 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       2       0       0       6       5       1       0
+Ran 6358 batches with an average size of 29.8572
+
+Thread 1297 stopping
+Played 8 games, total time 773.507 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       1       1       0
+Ran 5634 batches with an average size of 28.6429
+
+Thread 1275 stopping
+Played 8 games, total time 862.94 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       1       0       0
+Ran 6262 batches with an average size of 29.7812
+
+Thread 1211 stopping
+Played 8 games, total time 1042.94 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       1       2       0
+Ran 7750 batches with an average size of 23.8573
+
+Thread 1221 stopping
+Played 8 games, total time 1050.26 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       8       5       3       0       0       0       0       0
+Ran 7883 batches with an average size of 25.8513
+
+Thread 1236 stopping
+Played 8 games, total time 991.667 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       2       2       0
+Ran 7381 batches with an average size of 25.5067
+
+Thread 1271 stopping
+Played 8 games, total time 943.135 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       2       3       0       3       2       1       0
+Ran 6930 batches with an average size of 28.5937
+
+Thread 1311 stopping
+Played 8 games, total time 866.253 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 6341 batches with an average size of 27.2514
+
+Thread 1289 stopping
+Played 8 games, total time 892.371 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       3       2       0
+Ran 6623 batches with an average size of 29.3584
+
+Thread 1259 stopping
+Played 8 games, total time 977.199 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       0       1       0
+Ran 7183 batches with an average size of 27.6617
+
+Thread 1318 stopping
+Played 8 games, total time 854.086 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       0       1       0
+Ran 6289 batches with an average size of 28.6567
+
+Thread 1333 stopping
+Played 8 games, total time 855.62 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       1       2       0
+Ran 6363 batches with an average size of 26.7839
+
+Thread 1341 stopping
+Played 8 games, total time 834.997 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       0       2       0       6       0       6       0
+Ran 6135 batches with an average size of 29.6099
+
+Thread 1320 stopping
+Played 8 games, total time 871.621 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       2       1       0
+Ran 6403 batches with an average size of 28.7923
+
+Thread 1373 stopping
+Played 8 games, total time 822.918 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       1       2       0       5       3       2       0
+Ran 5942 batches with an average size of 29.0471
+
+Thread 1379 stopping
+Played 8 games, total time 831.212 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       0       2       0       6       4       2       0
+Ran 6083 batches with an average size of 29.7557
+
+Thread 1364 stopping
+Played 8 games, total time 859.347 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       2       3       0       3       1       2       0
+Ran 6235 batches with an average size of 29.2646
+
+Thread 1355 stopping
+Played 8 games, total time 883.468 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       4       3       0       1       0       1       0
+Ran 6507 batches with an average size of 29.055
+
+Thread 1350 stopping
+Played 8 games, total time 926.505 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       4       0       0
+Ran 6868 batches with an average size of 28.0162
+
+Thread 1385 stopping
+Played 8 games, total time 894.154 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       1       3       0       4       2       2       0
+Ran 6624 batches with an average size of 28.9774
+
+Thread 1436 stopping
+Played 8 games, total time 802.945 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 5947 batches with an average size of 29.1554
+
+Thread 1401 stopping
+Played 8 games, total time 841.1 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       3       1       0
+Ran 6146 batches with an average size of 29.2003
+
+Thread 1424 stopping
+Played 8 games, total time 822.407 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       3       2       0
+Ran 5982 batches with an average size of 28.1969
+
+Thread 1395 stopping
+Played 8 games, total time 928.561 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       4       2       0       2       1       1       0
+Ran 6873 batches with an average size of 27.9683
+
+Thread 1422 stopping
+Played 8 games, total time 904.654 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       1       3       0
+Ran 6666 batches with an average size of 28.2259
+
+Thread 1409 stopping
+Played 8 games, total time 912.34 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       2       2       0
+Ran 6585 batches with an average size of 26.8809
+
+Thread 1461 stopping
+Played 8 games, total time 822.036 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       4       2       0       2       0       2       0
+Ran 5957 batches with an average size of 29.6668
+
+Thread 1501 stopping
+Played 8 games, total time 845.021 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       1       2       0       5       3       2       0
+Ran 6253 batches with an average size of 28.7416
+
+Thread 1454 stopping
+Played 8 games, total time 901.639 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       3       1       0
+Ran 6573 batches with an average size of 28.761
+
+Thread 1441 stopping
+Played 8 games, total time 953.838 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       2       0       0
+Ran 7038 batches with an average size of 26.5892
+
+Thread 1466 stopping
+Played 8 games, total time 892.389 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       1       2       0
+Ran 6504 batches with an average size of 28.2748
+
+Thread 1480 stopping
+Played 8 games, total time 899.439 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       1       4       0
+Ran 6470 batches with an average size of 29.1824
+
+Thread 1488 stopping
+Played 8 games, total time 915.75 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       1       2       0
+Ran 6697 batches with an average size of 28.1877
+
+Thread 1531 stopping
+Played 8 games, total time 798.627 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       2       3       0       3       2       1       0
+Ran 5916 batches with an average size of 29.2627
+
+Thread 1504 stopping
+Played 8 games, total time 907.581 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       0       4       0
+Ran 6602 batches with an average size of 29.0276
+
+Thread 1473 stopping
+Played 8 games, total time 966.55 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       1       2       0
+Ran 7088 batches with an average size of 27.6885
+
+Thread 1527 stopping
+Played 8 games, total time 908.917 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 6657 batches with an average size of 27.2059
+
+Thread 1513 stopping
+Played 8 games, total time 939.405 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       3       0       0
+Ran 6905 batches with an average size of 28.6456
+
+Thread 1545 stopping
+Played 8 games, total time 853.785 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       1       0       0
+Ran 6226 batches with an average size of 29.0925
+
+Thread 1566 stopping
+Played 8 games, total time 839.845 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       8       7       1       0       0       0       0       0
+Ran 6122 batches with an average size of 29.0528
+
+Thread 1568 stopping
+Played 8 games, total time 828.436 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       1       1       0       6       5       1       0
+Ran 6078 batches with an average size of 29.8625
+
+Thread 1581 stopping
+Played 8 games, total time 849.266 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       2       2       0
+Ran 6245 batches with an average size of 30.5872
+
+Thread 1588 stopping
+Played 8 games, total time 848.096 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       2       1       0
+Ran 6177 batches with an average size of 27.9885
+
+Thread 1592 stopping
+Played 8 games, total time 885.544 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       2       0       0
+Ran 6486 batches with an average size of 29.6625
+
+Thread 1538 stopping
+Played 8 games, total time 997.169 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       1       0       0
+Ran 7379 batches with an average size of 26.9049
+
+Thread 1605 stopping
+Played 8 games, total time 891.273 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       2       1       0
+Ran 6544 batches with an average size of 28.3137
+
+Thread 1558 stopping
+Played 8 games, total time 969.351 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       1       4       0       3       3       0       0
+Ran 7153 batches with an average size of 27.1686
+
+Thread 1612 stopping
+Played 8 games, total time 890.114 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       2       3       0
+Ran 6492 batches with an average size of 28.722
+
+Thread 1634 stopping
+Played 8 games, total time 882.058 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       1       2       0
+Ran 6485 batches with an average size of 28.2756
+
+Thread 1675 stopping
+Played 8 games, total time 792.723 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       1       2       0
+Ran 5875 batches with an average size of 27.2516
+
+Thread 1671 stopping
+Played 8 games, total time 818.659 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       1       2       0
+Ran 5998 batches with an average size of 25.4735
+
+Thread 1631 stopping
+Played 8 games, total time 909.201 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       4       1       0
+Ran 6644 batches with an average size of 26.7327
+
+Thread 1694 stopping
+Played 8 games, total time 824.543 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       1       2       0
+Ran 6029 batches with an average size of 27.1657
+
+Thread 1646 stopping
+Played 8 games, total time 892.165 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       2       4       0       2       2       0       0
+Ran 6520 batches with an average size of 29.5833
+
+Thread 1618 stopping
+Played 8 games, total time 976.217 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       1       1       0       0       7       3       4       0
+Ran 7121 batches with an average size of 28.3744
+
+Thread 1682 stopping
+Played 8 games, total time 860.105 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       2       1       0
+Ran 6377 batches with an average size of 28.3764
+
+Thread 1654 stopping
+Played 8 games, total time 919.871 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       3       2       0
+Ran 6875 batches with an average size of 28.705
+
+Thread 1662 stopping
+Played 8 games, total time 921.642 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       0       2       0
+Ran 6769 batches with an average size of 29.5169
+
+Thread 1704 stopping
+Played 8 games, total time 869.846 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       6       1       0       1       1       0       0
+Ran 6385 batches with an average size of 28.3173
+
+Thread 1703 stopping
+Played 8 games, total time 990.211 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       1       2       0       5       4       1       0
+Ran 7301 batches with an average size of 26.7735
+
+Thread 1714 stopping
+Played 8 games, total time 896.051 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       3       1       0
+Ran 6639 batches with an average size of 27.1972
+
+Thread 1727 stopping
+Played 8 games, total time 1025.71 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       1       2       0
+Ran 7545 batches with an average size of 26.2584
+
+Thread 1750 stopping
+Played 8 games, total time 832.732 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       2       2       0
+Ran 6041 batches with an average size of 29.5534
+
+Thread 1743 stopping
+Played 8 games, total time 904.966 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       3       0       0
+Ran 6598 batches with an average size of 27.4974
+
+Thread 1777 stopping
+Played 8 games, total time 827.544 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       2       3       0
+Ran 6017 batches with an average size of 28.0156
+
+Thread 1754 stopping
+Played 8 games, total time 911.507 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       2       3       0       3       1       2       0
+Ran 6666 batches with an average size of 28.6745
+
+Thread 1765 stopping
+Played 8 games, total time 930.284 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       1       3       0
+Ran 6772 batches with an average size of 27.4929
+
+Thread 1728 stopping
+Played 8 games, total time 1014.55 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       3       1       0
+Ran 7575 batches with an average size of 25.2965
+
+Thread 1769 stopping
+Played 8 games, total time 909.002 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       8       5       3       0       0       0       0       0
+Ran 6632 batches with an average size of 28.4398
+
+Thread 1819 stopping
+Played 8 games, total time 808.997 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       4       3       0       1       1       0       0
+Ran 5891 batches with an average size of 29.3802
+
+Thread 1812 stopping
+Played 8 games, total time 831.1 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       3       1       0
+Ran 6016 batches with an average size of 30.5231
+
+Thread 1793 stopping
+Played 8 games, total time 931.006 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       1       2       0
+Ran 6822 batches with an average size of 29.3619
+
+Thread 1829 stopping
+Played 8 games, total time 867.722 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       1       2       0       5       2       3       0
+Ran 6274 batches with an average size of 28.7883
+
+Thread 1806 stopping
+Played 8 games, total time 936.45 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       4       3       0       1       0       1       0
+Ran 6845 batches with an average size of 28.4428
+
+Thread 1849 stopping
+Played 8 games, total time 836.818 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       2       2       0
+Ran 6153 batches with an average size of 29.4216
+
+Thread 1785 stopping
+Played 8 games, total time 990.924 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       3       4       0       1       1       0       0
+Ran 7329 batches with an average size of 26.3333
+
+Thread 1839 stopping
+Played 8 games, total time 914.123 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       1       3       0
+Ran 6681 batches with an average size of 28.0941
+
+Thread 1876 stopping
+Played 8 games, total time 894.244 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       1       2       0
+Ran 6520 batches with an average size of 28.9239
+
+Thread 1890 stopping
+Played 8 games, total time 851.518 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       2       3       0
+Ran 6306 batches with an average size of 28.5314
+
+Thread 1887 stopping
+Played 8 games, total time 886.223 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       4       1       0
+Ran 6531 batches with an average size of 27.3773
+
+Thread 1840 stopping
+Played 8 games, total time 984.819 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       3       1       0
+Ran 7224 batches with an average size of 27.3001
+
+Thread 1898 stopping
+Played 8 games, total time 835.437 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       1       2       0
+Ran 6116 batches with an average size of 29.0005
+
+Thread 1857 stopping
+Played 8 games, total time 999.874 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       1       2       0       5       2       3       0
+Ran 7410 batches with an average size of 26.1116
+
+Thread 1905 stopping
+Played 8 games, total time 883.921 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       1       2       0
+Ran 6453 batches with an average size of 28.0702
+
+Thread 1871 stopping
+Played 8 games, total time 1051.97 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       4       2       0       2       0       2       0
+Ran 7788 batches with an average size of 26.4276
+
+Thread 1913 stopping
+Played 8 games, total time 864.679 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       0       2       0
+Ran 6431 batches with an average size of 28.6319
+
+Thread 1923 stopping
+Played 8 games, total time 945.721 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       3       2       0
+Ran 6931 batches with an average size of 26.8474
+
+Thread 1940 stopping
+Played 8 games, total time 873.535 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       2       2       0
+Ran 6289 batches with an average size of 29.5217
+
+Thread 1952 stopping
+Played 8 games, total time 827.176 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       2       3       0
+Ran 5979 batches with an average size of 29.2342
+
+Thread 1933 stopping
+Played 8 games, total time 937.978 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       0       4       0
+Ran 6951 batches with an average size of 27.5135
+
+Thread 1948 stopping
+Played 8 games, total time 899.522 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       2       2       0
+Ran 6688 batches with an average size of 28.2383
+
+Thread 1972 stopping
+Played 8 games, total time 881.012 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       2       2       0
+Ran 6396 batches with an average size of 30.0996
+
+Thread 2004 stopping
+Played 8 games, total time 837.211 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       1       1       0
+Ran 6015 batches with an average size of 30.5747
+
+Thread 1965 stopping
+Played 8 games, total time 926.249 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       3       1       0
+Ran 6783 batches with an average size of 27.4768
+
+Thread 1978 stopping
+Played 8 games, total time 920.303 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       3       2       0
+Ran 6821 batches with an average size of 27.2311
+
+Thread 2016 stopping
+Played 8 games, total time 849.758 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       1       3       0
+Ran 6287 batches with an average size of 28.9039
+
+Thread 2029 stopping
+Played 8 games, total time 873.716 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       1       2       0       5       1       4       0
+Ran 6407 batches with an average size of 30.0493
+
+Thread 2010 stopping
+Played 8 games, total time 889.898 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       3       1       0
+Ran 6608 batches with an average size of 27.9056
+
+Thread 2033 stopping
+Played 8 games, total time 864.816 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       4       2       0       2       1       1       0
+Ran 6424 batches with an average size of 27.8473
+
+Thread 1993 stopping
+Played 8 games, total time 948.11 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       4       2       0       2       2       0       0
+Ran 6971 batches with an average size of 28.6118
+
+Thread 1991 stopping
+Played 8 games, total time 972.831 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       2       3       0       3       2       1       0
+Ran 7153 batches with an average size of 26.4702
+
+Thread 2043 stopping
+Played 8 games, total time 822.95 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       0       2       0
+Ran 6144 batches with an average size of 28.8931
+
+Thread 2059 stopping
+Played 8 games, total time 895.061 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       2       1       0
+Ran 6559 batches with an average size of 28.7056
+
+Thread 2051 stopping
+Played 8 games, total time 899.884 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       3       0       0
+Ran 6724 batches with an average size of 29.8913
+
+Thread 2074 stopping
+Played 8 games, total time 845.188 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       1       2       0
+Ran 6123 batches with an average size of 28.7382
+
+Thread 2085 stopping
+Played 8 games, total time 877.95 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       4       0       0
+Ran 6467 batches with an average size of 27.5851
+
+Thread 2067 stopping
+Played 8 games, total time 911.65 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       2       0       0
+Ran 6717 batches with an average size of 28.9641
+
+Thread 2102 stopping
+Played 8 games, total time 836.251 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       0       3       0
+Ran 6086 batches with an average size of 30.1804
+
+Thread 2095 stopping
+Played 8 games, total time 929.895 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       4       2       0       2       1       1       0
+Ran 6886 batches with an average size of 26.334
+
+Thread 2108 stopping
+Played 8 games, total time 841.704 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       2       3       0
+Ran 6220 batches with an average size of 28.0014
+
+Thread 2123 stopping
+Played 8 games, total time 824.641 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       2       1       0
+Ran 6043 batches with an average size of 27.8352
+
+Thread 2112 stopping
+Played 8 games, total time 885.792 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       2       3       0
+Ran 6472 batches with an average size of 29.7174
+
+Thread 2139 stopping
+Played 8 games, total time 869.949 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       1       1       0       0       7       6       1       0
+Ran 6294 batches with an average size of 29.4944
+
+Thread 2146 stopping
+Played 8 games, total time 893.39 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       2       1       0
+Ran 6633 batches with an average size of 28.6474
+
+Thread 2155 stopping
+Played 8 games, total time 857.562 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       1       3       0
+Ran 6219 batches with an average size of 29.1494
+
+Thread 2162 stopping
+Played 8 games, total time 841.56 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       0       1       0
+Ran 6176 batches with an average size of 30.1525
+
+Thread 2134 stopping
+Played 8 games, total time 965.706 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       2       1       0
+Ran 7086 batches with an average size of 27.5107
+
+Thread 2168 stopping
+Played 8 games, total time 864.355 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       2       1       0
+Ran 6278 batches with an average size of 29.0084
+
+Thread 2180 stopping
+Played 8 games, total time 862.486 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       0       2       0       6       3       3       0
+Ran 6377 batches with an average size of 29.8857
+
+Thread 2207 stopping
+Played 8 games, total time 850.743 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       2       3       0       3       1       2       0
+Ran 6174 batches with an average size of 28.7222
+
+Thread 2208 stopping
+Played 8 games, total time 852.319 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       2       2       0
+Ran 6259 batches with an average size of 28.7306
+
+Thread 2195 stopping
+Played 8 games, total time 876.062 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       3       1       0
+Ran 6371 batches with an average size of 27.639
+
+Thread 2191 stopping
+Played 8 games, total time 914.162 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       1       2       0
+Ran 6688 batches with an average size of 29.8944
+
+Thread 2219 stopping
+Played 8 games, total time 910.991 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       1       0       0
+Ran 6741 batches with an average size of 27.3594
+
+Thread 2244 stopping
+Played 8 games, total time 842.742 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       2       3       0       3       3       0       0
+Ran 6163 batches with an average size of 28.9411
+
+Thread 2229 stopping
+Played 8 games, total time 943.891 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       2       1       0
+Ran 6983 batches with an average size of 28.5188
+
+Thread 2249 stopping
+Played 8 games, total time 854.797 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       4       0       0
+Ran 6334 batches with an average size of 28.9545
+
+Thread 2279 stopping
+Played 8 games, total time 805.536 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       6       0       0       2       2       0       0
+Ran 5889 batches with an average size of 29.5337
+
+Thread 2233 stopping
+Played 8 games, total time 953.37 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       3       3       0       2       2       0       0
+Ran 7016 batches with an average size of 27.2128
+
+Thread 2263 stopping
+Played 8 games, total time 863.935 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       4       0       0
+Ran 6302 batches with an average size of 29.3231
+
+Thread 2265 stopping
+Played 8 games, total time 897.828 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       4       3       0       1       0       1       0
+Ran 6629 batches with an average size of 28.3999
+
+Thread 2287 stopping
+Played 8 games, total time 883.94 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       3       2       0
+Ran 6462 batches with an average size of 28.147
+
+Thread 2292 stopping
+Played 8 games, total time 879.942 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 6549 batches with an average size of 28.3245
+
+Thread 2296 stopping
+Played 8 games, total time 861.066 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       1       2       0
+Ran 6228 batches with an average size of 29.223
+
+Thread 2304 stopping
+Played 8 games, total time 775.03 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       3       0       0
+Ran 5671 batches with an average size of 30.1453
+
+Thread 2318 stopping
+Played 8 games, total time 916.247 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       1       2       0
+Ran 6782 batches with an average size of 27.941
+
+Thread 2324 stopping
+Played 8 games, total time 932.232 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       2       3       0
+Ran 6798 batches with an average size of 27.7295
+
+Thread 2353 stopping
+Played 8 games, total time 874.469 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       4       2       0       2       1       1       0
+Ran 6391 batches with an average size of 27.8417
+
+Thread 2347 stopping
+Played 8 games, total time 912.496 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       1       3       0
+Ran 6779 batches with an average size of 28.2002
+
+Thread 2389 stopping
+Played 8 games, total time 834.907 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       2       2       0
+Ran 6098 batches with an average size of 29.3131
+
+Thread 2330 stopping
+Played 8 games, total time 924.035 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       3       3       0       2       2       0       0
+Ran 6750 batches with an average size of 28.4956
+
+Thread 2372 stopping
+Played 8 games, total time 898.733 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       1       0       1       0       7       4       3       0
+Ran 6589 batches with an average size of 28.4341
+
+Thread 2395 stopping
+Played 8 games, total time 869.986 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       1       2       0
+Ran 6417 batches with an average size of 29.2883
+
+Thread 2337 stopping
+Played 8 games, total time 974.98 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       1       4       0       3       3       0       0
+Ran 7167 batches with an average size of 26.8934
+
+Thread 2415 stopping
+Played 8 games, total time 835.947 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       2       3       0       3       3       0       0
+Ran 6289 batches with an average size of 26.6815
+
+Thread 2363 stopping
+Played 8 games, total time 950.667 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       1       2       0       5       3       2       0
+Ran 6950 batches with an average size of 28.7279
+
+Thread 2407 stopping
+Played 8 games, total time 927.185 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       2       2       0
+Ran 6706 batches with an average size of 27.8703
+
+Thread 2437 stopping
+Played 8 games, total time 866.992 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       2       0       0       6       3       3       0
+Ran 6358 batches with an average size of 29.034
+
+Thread 2382 stopping
+Played 8 games, total time 988.986 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       0       3       0
+Ran 7247 batches with an average size of 26.815
+
+Thread 2444 stopping
+Played 8 games, total time 857.439 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       2       2       0
+Ran 6224 batches with an average size of 29.9974
+
+Thread 2416 stopping
+Played 8 games, total time 895.658 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       1       2       0       5       2       3       0
+Ran 6579 batches with an average size of 27.8032
+
+Thread 2424 stopping
+Played 8 games, total time 937.927 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       2       2       0
+Ran 6866 batches with an average size of 27.4664
+
+Thread 2462 stopping
+Played 8 games, total time 917.114 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       2       0       0
+Ran 6672 batches with an average size of 28.5586
+
+Thread 2450 stopping
+Played 8 games, total time 929.591 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       3       0       0
+Ran 6765 batches with an average size of 26.6318
+
+Thread 2470 stopping
+Played 8 games, total time 895.822 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       4       2       0       2       0       2       0
+Ran 6627 batches with an average size of 28.7275
+
+Thread 2488 stopping
+Played 8 games, total time 840.6 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       3       1       0
+Ran 6256 batches with an average size of 28.7591
+
+Thread 2481 stopping
+Played 8 games, total time 878.964 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       0       1       0
+Ran 6550 batches with an average size of 29.6119
+
+Thread 2475 stopping
+Played 8 games, total time 960.007 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       1       1       0
+Ran 7060 batches with an average size of 27.5432
+
+Thread 2498 stopping
+Played 8 games, total time 935.762 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       4       0       0
+Ran 6916 batches with an average size of 26.4362
+
+Thread 2507 stopping
+Played 8 games, total time 832.723 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       6       0       0       2       2       0       0
+Ran 6025 batches with an average size of 30.1588
+
+Thread 2525 stopping
+Played 8 games, total time 811.731 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       2       0       0       6       2       4       0
+Ran 5893 batches with an average size of 29.6849
+
+Thread 2516 stopping
+Played 8 games, total time 887.997 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       1       4       0
+Ran 6588 batches with an average size of 28.9352
+
+Thread 2546 stopping
+Played 8 games, total time 861.708 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       2       0       0       6       3       3       0
+Ran 6243 batches with an average size of 29.4551
+
+Thread 2540 stopping
+Played 8 games, total time 899.662 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       1       3       0
+Ran 6568 batches with an average size of 29.1903
+
+Thread 2582 stopping
+Played 8 games, total time 839.344 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       6       0       0       2       1       1       0
+Ran 6146 batches with an average size of 29.5275
+
+Thread 2557 stopping
+Played 8 games, total time 882.554 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       2       0       0       6       4       2       0
+Ran 6437 batches with an average size of 29.979
+
+Thread 2565 stopping
+Played 8 games, total time 881.174 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       2       1       0
+Ran 6364 batches with an average size of 29.0559
+
+Thread 2568 stopping
+Played 8 games, total time 898.583 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       3       1       0
+Ran 6492 batches with an average size of 28.9732
+
+Thread 2591 stopping
+Played 8 games, total time 898.535 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       3       2       0
+Ran 6527 batches with an average size of 28.8253
+
+Thread 2606 stopping
+Played 8 games, total time 831.593 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       0       2       0       6       4       2       0
+Ran 5948 batches with an average size of 29.2295
+
+Thread 2615 stopping
+Played 8 games, total time 835.675 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       1       3       0
+Ran 6047 batches with an average size of 27.8961
+
+Thread 2592 stopping
+Played 8 games, total time 866.639 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       4       1       0
+Ran 6366 batches with an average size of 29.5773
+
+Thread 2533 stopping
+Played 8 games, total time 1000.82 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       6       0       0       2       0       2       0
+Ran 7483 batches with an average size of 27.5611
+
+Thread 2624 stopping
+Played 8 games, total time 846.562 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       3       2       0
+Ran 6240 batches with an average size of 30.151
+
+Thread 2645 stopping
+Played 8 games, total time 854.356 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 6212 batches with an average size of 29.6771
+
+Thread 2651 stopping
+Played 8 games, total time 848.878 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       3       1       0
+Ran 6259 batches with an average size of 27.4633
+
+Thread 2658 stopping
+Played 8 games, total time 848.603 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       1       3       0
+Ran 6241 batches with an average size of 29.4297
+
+Thread 2632 stopping
+Played 8 games, total time 946.589 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       8       6       2       0       0       0       0       0
+Ran 6927 batches with an average size of 29.2017
+
+Thread 2618 stopping
+Played 8 games, total time 1082.27 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       0       3       0
+Ran 7910 batches with an average size of 27.0616
+
+Thread 2676 stopping
+Played 8 games, total time 895.3 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       1       2       0
+Ran 6718 batches with an average size of 28.2636
+
+Thread 2668 stopping
+Played 8 games, total time 918.474 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       7       0       0       1       1       0       0
+Ran 6821 batches with an average size of 27.4732
+
+Thread 2685 stopping
+Played 8 games, total time 912.949 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       3       0       0
+Ran 6757 batches with an average size of 28.0879
+
+Thread 2693 stopping
+Played 8 games, total time 847.25 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       4       1       0
+Ran 6130 batches with an average size of 30.493
+
+Thread 2701 stopping
+Played 8 games, total time 838.45 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       2       2       0
+Ran 6116 batches with an average size of 28.7124
+
+Thread 2726 stopping
+Played 8 games, total time 801.013 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       4       2       0       2       0       2       0
+Ran 5852 batches with an average size of 28.1499
+
+Thread 2704 stopping
+Played 8 games, total time 875.761 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       3       3       0       2       0       2       0
+Ran 6452 batches with an average size of 29.4602
+
+Thread 2758 stopping
+Played 8 games, total time 827.756 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       2       1       0
+Ran 5986 batches with an average size of 29.6067
+
+Thread 2715 stopping
+Played 8 games, total time 923.805 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       4       3       0       1       1       0       0
+Ran 6715 batches with an average size of 27.6033
+
+Thread 2733 stopping
+Played 8 games, total time 871.415 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       1       3       0
+Ran 6337 batches with an average size of 29.501
+
+Thread 2772 stopping
+Played 8 games, total time 814.651 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       2       3       0       3       2       1       0
+Ran 5972 batches with an average size of 29.8255
+
+Thread 2739 stopping
+Played 8 games, total time 876.396 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       2       0       0       6       3       3       0
+Ran 6360 batches with an average size of 29.1253
+
+Thread 2749 stopping
+Played 8 games, total time 882.569 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       2       3       0
+Ran 6451 batches with an average size of 29.6295
+
+Thread 2789 stopping
+Played 8 games, total time 846.035 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       2       2       0
+Ran 6191 batches with an average size of 28.6962
+
+Thread 2761 stopping
+Played 8 games, total time 878.434 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       2       0       0       6       3       3       0
+Ran 6437 batches with an average size of 29.2422
+
+Thread 2803 stopping
+Played 8 games, total time 849.41 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       3       0       0
+Ran 6247 batches with an average size of 28.6816
+
+Thread 2783 stopping
+Played 8 games, total time 885.098 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       6       1       0       1       1       0       0
+Ran 6498 batches with an average size of 28.7067
+
+Thread 2797 stopping
+Played 8 games, total time 878.394 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       2       2       0
+Ran 6468 batches with an average size of 29.0397
+
+Thread 2813 stopping
+Played 8 games, total time 883.185 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       4       1       0
+Ran 6425 batches with an average size of 26.5879
+
+Thread 2839 stopping
+Played 8 games, total time 819.103 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       0       3       0
+Ran 5957 batches with an average size of 30.9135
+
+Thread 2822 stopping
+Played 8 games, total time 880.431 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       2       2       0
+Ran 6519 batches with an average size of 27.9423
+
+Thread 2830 stopping
+Played 8 games, total time 920.911 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       4       2       0       2       2       0       0
+Ran 6720 batches with an average size of 28.9347
+
+Thread 2841 stopping
+Played 8 games, total time 881.903 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       1       1       0
+Ran 6427 batches with an average size of 29.6715
+
+Thread 2861 stopping
+Played 8 games, total time 870.77 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       2       0       0
+Ran 6414 batches with an average size of 28.8669
+
+Thread 2870 stopping
+Played 8 games, total time 883.723 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       3       2       0
+Ran 6463 batches with an average size of 27.108
+
+Thread 2874 stopping
+Played 8 games, total time 883.845 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       2       1       0
+Ran 6501 batches with an average size of 26.9229
+
+Thread 2851 stopping
+Played 8 games, total time 964.228 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       1       3       0       4       3       1       0
+Ran 7074 batches with an average size of 26.0762
+
+Thread 2884 stopping
+Played 8 games, total time 853.596 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       3       1       0
+Ran 6228 batches with an average size of 29.483
+
+Thread 2891 stopping
+Played 8 games, total time 824.523 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       4       3       0       1       1       0       0
+Ran 6060 batches with an average size of 29.9279
+
+Thread 2911 stopping
+Played 8 games, total time 820.29 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       7       0       0       1       1       0       0
+Ran 6090 batches with an average size of 26.0427
+
+Thread 2942 stopping
+Played 8 games, total time 816.463 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       1       2       0
+Ran 6041 batches with an average size of 28.2983
+
+Thread 2932 stopping
+Played 8 games, total time 834.761 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       3       1       0
+Ran 6055 batches with an average size of 28.5914
+
+Thread 2926 stopping
+Played 8 games, total time 866.475 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       2       1       0
+Ran 6319 batches with an average size of 30.223
+
+Thread 2989 stopping
+Played 8 games, total time 805.274 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       2       1       0
+Ran 5987 batches with an average size of 29.6715
+
+Thread 2917 stopping
+Played 8 games, total time 912.438 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       3       2       0
+Ran 6696 batches with an average size of 28.8547
+
+Thread 2972 stopping
+Played 8 games, total time 848.483 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       4       0       0
+Ran 6294 batches with an average size of 28.8302
+
+Thread 2962 stopping
+Played 8 games, total time 876.602 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       2       2       0
+Ran 6392 batches with an average size of 28.6314
+
+Thread 2897 stopping
+Played 8 games, total time 1042.25 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       1       1       0       6       5       1       0
+Ran 7684 batches with an average size of 26.3874
+
+Thread 2999 stopping
+Played 8 games, total time 853.947 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       4       3       0       1       1       0       0
+Ran 6220 batches with an average size of 30.2865
+
+Thread 2947 stopping
+Played 8 games, total time 946.151 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       1       3       0
+Ran 6972 batches with an average size of 27.386
+
+Thread 2981 stopping
+Played 8 games, total time 905.982 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 6723 batches with an average size of 28.6136
+
+Thread 3006 stopping
+Played 8 games, total time 872.297 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       1       2       0
+Ran 6461 batches with an average size of 26.9803
+
+Thread 2959 stopping
+Played 8 games, total time 981.032 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       2       1       0
+Ran 7239 batches with an average size of 27.3679
+
+Thread 3022 stopping
+Played 8 games, total time 879.375 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       1       1       0       6       4       2       0
+Ran 6433 batches with an average size of 29.4098
+
+Thread 3030 stopping
+Played 8 games, total time 843.985 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       1       0       0
+Ran 6124 batches with an average size of 30.0201
+
+Thread 3035 stopping
+Played 8 games, total time 818.766 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       1       1       0       6       2       4       0
+Ran 6028 batches with an average size of 29.7988
+
+Thread 3009 stopping
+Played 8 games, total time 918.843 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       2       2       0
+Ran 6751 batches with an average size of 27.7867
+
+Thread 3047 stopping
+Played 8 games, total time 864.741 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       2       2       0
+Ran 6325 batches with an average size of 28.4552
+
+Thread 3071 stopping
+Played 8 games, total time 861.424 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       6       1       0       1       1       0       0
+Ran 6250 batches with an average size of 29.7787
+
+Thread 3048 stopping
+Played 8 games, total time 940.381 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       3       3       0       2       1       1       0
+Ran 6861 batches with an average size of 28.2995
+
+Thread 3056 stopping
+Played 8 games, total time 957.476 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       3       0       0
+Ran 7045 batches with an average size of 25.651
+
+Thread 3087 stopping
+Played 8 games, total time 909.491 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       2       3       0       3       2       1       0
+Ran 6716 batches with an average size of 27.0426
+
+Thread 3094 stopping
+Played 8 games, total time 901.496 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       3       3       0       2       2       0       0
+Ran 6644 batches with an average size of 29.9372
+
+Thread 3075 stopping
+Played 8 games, total time 1020.59 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       3       3       0       2       0       1       1
+Ran 7624 batches with an average size of 26.5409
+
+Thread 3103 stopping
+Played 8 games, total time 848.579 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       3       1       0
+Ran 6193 batches with an average size of 29.2785
+
+Thread 3106 stopping
+Played 8 games, total time 850.717 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       1       0       0
+Ran 6201 batches with an average size of 30.1313
+
+Thread 3145 stopping
+Played 8 games, total time 805.778 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       3       1       0
+Ran 5884 batches with an average size of 28.8445
+
+Thread 3138 stopping
+Played 8 games, total time 833.329 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       3       2       0
+Ran 5991 batches with an average size of 30.8127
+
+Thread 3112 stopping
+Played 8 games, total time 879.684 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       4       2       0       2       2       0       0
+Ran 6440 batches with an average size of 29.4904
+
+Thread 3154 stopping
+Played 8 games, total time 818.253 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       1       0       0
+Ran 5994 batches with an average size of 27.0469
+
+Thread 3183 stopping
+Played 8 games, total time 783.91 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       2       0       0       6       3       3       0
+Ran 5688 batches with an average size of 29.9371
+
+Thread 3125 stopping
+Played 8 games, total time 884.119 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 6443 batches with an average size of 28.2522
+
+Thread 3134 stopping
+Played 8 games, total time 907.442 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       5       0       0
+Ran 6688 batches with an average size of 27.8958
+
+Thread 3164 stopping
+Played 8 games, total time 893.273 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       2       0       0       6       3       3       0
+Ran 6510 batches with an average size of 28.8578
+
+Thread 3196 stopping
+Played 8 games, total time 866.57 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       3       3       0       2       2       0       0
+Ran 6315 batches with an average size of 28.422
+
+Thread 3185 stopping
+Played 8 games, total time 878.206 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       1       2       0
+Ran 6464 batches with an average size of 28.0692
+
+Thread 3221 stopping
+Played 8 games, total time 806.943 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       4       3       0       1       1       0       0
+Ran 5987 batches with an average size of 28.7002
+
+Thread 3226 stopping
+Played 8 games, total time 816.961 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       1       2       0
+Ran 5987 batches with an average size of 29.0107
+
+Thread 3212 stopping
+Played 8 games, total time 839.434 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       1       2       0
+Ran 6201 batches with an average size of 28.5596
+
+Thread 3203 stopping
+Played 8 games, total time 875.971 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       2       2       0
+Ran 6458 batches with an average size of 27.1878
+
+Thread 3171 stopping
+Played 8 games, total time 992.706 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       4       0       0
+Ran 7235 batches with an average size of 26.4695
+
+Thread 3243 stopping
+Played 8 games, total time 810.493 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       3       2       0
+Ran 6006 batches with an average size of 29.7085
+
+Thread 3236 stopping
+Played 8 games, total time 923.023 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       3       4       0       1       0       1       0
+Ran 6856 batches with an average size of 26.1228
+
+Thread 3262 stopping
+Played 8 games, total time 806.021 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       7       0       0       1       0       1       0
+Ran 5926 batches with an average size of 28.7121
+
+Thread 3252 stopping
+Played 8 games, total time 915.657 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       0       1       0
+Ran 6667 batches with an average size of 28.313
+
+Thread 3271 stopping
+Played 8 games, total time 878.902 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       3       1       0
+Ran 6496 batches with an average size of 29.5028
+
+Thread 3273 stopping
+Played 8 games, total time 814.024 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       3       0       0
+Ran 6002 batches with an average size of 29.7109
+
+Thread 3300 stopping
+Played 8 games, total time 815.111 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       4       1       0
+Ran 5966 batches with an average size of 29.612
+
+Thread 3284 stopping
+Played 8 games, total time 889.619 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       2       5       0       1       1       0       0
+Ran 6569 batches with an average size of 28.7359
+
+Thread 3331 stopping
+Played 8 games, total time 813.839 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       0       2       0
+Ran 5967 batches with an average size of 29.0302
+
+Thread 3294 stopping
+Played 8 games, total time 929.545 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       3       3       0       2       1       1       0
+Ran 6853 batches with an average size of 26.5021
+
+Thread 3361 stopping
+Played 8 games, total time 762.892 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       6       1       0       1       1       0       0
+Ran 5580 batches with an average size of 28.6142
+
+Thread 3325 stopping
+Played 8 games, total time 901.206 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       0       3       0
+Ran 6696 batches with an average size of 28.8229
+
+Thread 3383 stopping
+Played 8 games, total time 778.763 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       0       3       0
+Ran 5682 batches with an average size of 29.9924
+
+Thread 3339 stopping
+Played 8 games, total time 918.078 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       3       1       0
+Ran 6792 batches with an average size of 28.5025
+
+Thread 3317 stopping
+Played 8 games, total time 940.354 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       4       2       0       2       1       1       0
+Ran 6993 batches with an average size of 28.4176
+
+Thread 3354 stopping
+Played 8 games, total time 894.324 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       2       1       0
+Ran 6582 batches with an average size of 28.1196
+
+Thread 3308 stopping
+Played 8 games, total time 983.939 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       2       1       0
+Ran 7227 batches with an average size of 26.9527
+
+Thread 3394 stopping
+Played 8 games, total time 835.724 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       1       3       0
+Ran 6137 batches with an average size of 29.0051
+
+Thread 3369 stopping
+Played 8 games, total time 884.026 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       3       2       0
+Ran 6573 batches with an average size of 28.114
+
+Thread 3388 stopping
+Played 8 games, total time 869.368 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       0       2       0
+Ran 6353 batches with an average size of 29.5401
+
+Thread 3347 stopping
+Played 8 games, total time 997.344 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       4       0       0
+Ran 7227 batches with an average size of 27.6127
+
+Thread 3419 stopping
+Played 8 games, total time 828.213 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       1       3       0
+Ran 6006 batches with an average size of 29.8949
+
+Thread 3413 stopping
+Played 8 games, total time 845.875 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       1       2       0
+Ran 6299 batches with an average size of 28.8289
+
+Thread 3400 stopping
+Played 8 games, total time 925.699 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       1       4       0
+Ran 6845 batches with an average size of 27.4156
+
+Thread 3431 stopping
+Played 8 games, total time 925.578 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       0       4       0
+Ran 6764 batches with an average size of 27.5308
+
+Thread 3438 stopping
+Played 8 games, total time 903.869 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       3       0       0
+Ran 6595 batches with an average size of 29.3098
+
+Thread 3444 stopping
+Played 8 games, total time 902.643 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       6       0       0       2       2       0       0
+Ran 6673 batches with an average size of 27.8985
+
+Thread 3460 stopping
+Played 8 games, total time 858.818 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       1       4       0
+Ran 6256 batches with an average size of 29.9608
+
+Thread 3454 stopping
+Played 8 games, total time 1096 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       0       4       0       4       2       2       0
+Ran 8091 batches with an average size of 24.9472
+
+Thread 3466 stopping
+Played 8 games, total time 938.384 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       1       4       0       3       1       2       0
+Ran 6839 batches with an average size of 29.3076
+
+Thread 3484 stopping
+Played 8 games, total time 888.926 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       0       3       0
+Ran 6582 batches with an average size of 26.1348
+
+Thread 3473 stopping
+Played 8 games, total time 907.91 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       1       1       0
+Ran 6683 batches with an average size of 27.007
+
+Thread 3488 stopping
+Played 8 games, total time 846.802 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       2       1       0
+Ran 6237 batches with an average size of 29.6745
+
+Thread 3508 stopping
+Played 8 games, total time 844.986 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       1       2       0
+Ran 6182 batches with an average size of 28.7134
+
+Thread 3516 stopping
+Played 8 games, total time 874.518 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       2       2       0
+Ran 6373 batches with an average size of 29.2493
+
+Thread 3525 stopping
+Played 8 games, total time 876.629 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       3       3       0       2       1       1       0
+Ran 6340 batches with an average size of 29.6304
+
+Thread 3539 stopping
+Played 8 games, total time 841.604 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       0       2       0       6       5       1       0
+Ran 6143 batches with an average size of 29.7741
+
+Thread 3535 stopping
+Played 8 games, total time 844.279 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       3       1       0
+Ran 6146 batches with an average size of 28.0156
+
+Thread 3500 stopping
+Played 8 games, total time 937.591 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       3       3       0       2       1       1       0
+Ran 6838 batches with an average size of 28.1676
+
+Thread 3578 stopping
+Played 8 games, total time 822.181 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       3       0       0
+Ran 6036 batches with an average size of 29.7485
+
+Thread 3552 stopping
+Played 8 games, total time 881.123 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       3       0       0
+Ran 6542 batches with an average size of 29.7513
+
+Thread 3561 stopping
+Played 8 games, total time 867.201 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       3       1       0
+Ran 6293 batches with an average size of 30.9191
+
+Thread 3603 stopping
+Played 8 games, total time 832.83 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       3       2       0
+Ran 6067 batches with an average size of 29.5106
+
+Thread 3569 stopping
+Played 8 games, total time 886.835 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       2       3       0       3       2       1       0
+Ran 6441 batches with an average size of 29.8255
+
+Thread 3597 stopping
+Played 8 games, total time 893.647 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       3       2       0
+Ran 6673 batches with an average size of 27.3651
+
+Thread 3547 stopping
+Played 8 games, total time 969.913 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       2       2       0
+Ran 7091 batches with an average size of 26.8045
+
+Thread 3584 stopping
+Played 8 games, total time 898.549 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       1       2       0
+Ran 6622 batches with an average size of 29.0349
+
+Thread 3614 stopping
+Played 8 games, total time 869.624 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       2       1       0
+Ran 6315 batches with an average size of 28.1449
+
+Thread 3622 stopping
+Played 8 games, total time 838.308 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       3       1       0
+Ran 6156 batches with an average size of 30.7338
+
+Thread 3639 stopping
+Played 8 games, total time 824.735 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       2       2       0
+Ran 6093 batches with an average size of 29.7651
+
+Thread 3631 stopping
+Played 8 games, total time 880.077 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       2       3       0       3       2       1       0
+Ran 6472 batches with an average size of 28.7744
+
+Thread 3646 stopping
+Played 8 games, total time 877.437 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       3       3       0       2       2       0       0
+Ran 6399 batches with an average size of 30.9389
+
+Thread 3650 stopping
+Played 8 games, total time 875.465 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       2       2       0
+Ran 6380 batches with an average size of 29.4603
+
+Thread 3662 stopping
+Played 8 games, total time 847.2 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       4       2       0       2       2       0       0
+Ran 6260 batches with an average size of 28.7149
+
+Thread 3697 stopping
+Played 8 games, total time 766.402 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       4       2       0       2       2       0       0
+Ran 5535 batches with an average size of 29.6847
+
+Thread 3668 stopping
+Played 8 games, total time 902.466 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       6       0       0       2       1       1       0
+Ran 6737 batches with an average size of 27.7958
+
+Thread 3683 stopping
+Played 8 games, total time 919.576 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 6606 batches with an average size of 28.2057
+
+Thread 3695 stopping
+Played 8 games, total time 900.606 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       1       3       0       4       1       3       0
+Ran 6585 batches with an average size of 27.486
+
+Thread 3714 stopping
+Played 8 games, total time 845.036 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       1       1       0       6       2       4       0
+Ran 6137 batches with an average size of 29.7533
+
+Thread 3672 stopping
+Played 8 games, total time 971.842 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       5       2       0       1       1       0       0
+Ran 7114 batches with an average size of 27.5266
+
+Thread 3705 stopping
+Played 8 games, total time 880.39 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       2       2       0
+Ran 6479 batches with an average size of 29.493
+
+Thread 3733 stopping
+Played 8 games, total time 864.788 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       4       3       0       1       1       0       0
+Ran 6343 batches with an average size of 28.5644
+
+Thread 3736 stopping
+Played 8 games, total time 850.731 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       6       0       0       2       2       0       0
+Ran 6281 batches with an average size of 29.7992
+
+Thread 3725 stopping
+Played 8 games, total time 924.354 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       1       3       0
+Ran 6838 batches with an average size of 27.9178
+
+Thread 3748 stopping
+Played 8 games, total time 848.511 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       4       1       0
+Ran 6169 batches with an average size of 27.817
+
+Thread 3759 stopping
+Played 8 games, total time 871.651 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       2       2       0
+Ran 6506 batches with an average size of 27.7536
+
+Thread 3778 stopping
+Played 8 games, total time 842.415 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       2       3       0
+Ran 6129 batches with an average size of 29.2351
+
+Thread 3798 stopping
+Played 8 games, total time 851.871 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 6222 batches with an average size of 29.8592
+
+Thread 3801 stopping
+Played 8 games, total time 826.611 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       2       2       0
+Ran 6044 batches with an average size of 28.6281
+
+Thread 3762 stopping
+Played 8 games, total time 922.168 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       1       2       0
+Ran 6867 batches with an average size of 26.9387
+
+Thread 3788 stopping
+Played 8 games, total time 883.899 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       2       1       0
+Ran 6450 batches with an average size of 28.8389
+
+Thread 3769 stopping
+Played 8 games, total time 934.659 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       0       3       0
+Ran 6913 batches with an average size of 27.5682
+
+Thread 3819 stopping
+Played 8 games, total time 781.401 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       2       2       0
+Ran 5757 batches with an average size of 30.6649
+
+Thread 3814 stopping
+Played 8 games, total time 835.361 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       2       4       0       2       1       1       0
+Ran 6117 batches with an average size of 30.1976
+
+Thread 3829 stopping
+Played 8 games, total time 901.675 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       4       1       0
+Ran 6741 batches with an average size of 27.6701
+
+Thread 3832 stopping
+Played 8 games, total time 830.268 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       4       0       0
+Ran 6043 batches with an average size of 29.5628
+
+Thread 3840 stopping
+Played 8 games, total time 828.777 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       3       1       0
+Ran 6147 batches with an average size of 28.7251
+
+Thread 3849 stopping
+Played 8 games, total time 918.463 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       1       2       0
+Ran 6747 batches with an average size of 29.0914
+
+Thread 3862 stopping
+Played 8 games, total time 909.35 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       2       2       0
+Ran 6624 batches with an average size of 25.0329
+
+Thread 3886 stopping
+Played 8 games, total time 889.72 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       3       0       0
+Ran 6633 batches with an average size of 28.2474
+
+Thread 3879 stopping
+Played 8 games, total time 907.808 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       3       1       0
+Ran 6656 batches with an average size of 28.4697
+
+Thread 3890 stopping
+Played 8 games, total time 910.278 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       2       2       0
+Ran 6788 batches with an average size of 28.0573
+
+Thread 3908 stopping
+Played 8 games, total time 891.795 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       2       3       0
+Ran 6470 batches with an average size of 29.2167
+
+Thread 3869 stopping
+Played 8 games, total time 989.863 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       6       0       0       2       1       1       0
+Ran 7336 batches with an average size of 27.4841
+
+Thread 3976 stopping
+Played 8 games, total time 769.297 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       4       2       0       2       1       1       0
+Ran 5643 batches with an average size of 30.8568
+
+Thread 3912 stopping
+Played 8 games, total time 918.224 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       4       1       0       3       2       1       0
+Ran 6742 batches with an average size of 29.1492
+
+Thread 3926 stopping
+Played 8 games, total time 896.954 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       0       0       0       0       8       3       5       0
+Ran 6543 batches with an average size of 29.272
+
+Thread 3943 stopping
+Played 8 games, total time 902.971 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       7       6       1       0       1       1       0       0
+Ran 6642 batches with an average size of 29.2952
+
+Thread 3897 stopping
+Played 8 games, total time 975.357 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       0       2       0
+Ran 7290 batches with an average size of 25.3761
+
+Thread 3970 stopping
+Played 8 games, total time 835.726 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       0       4       0
+Ran 6116 batches with an average size of 29.2551
+
+Thread 3930 stopping
+Played 8 games, total time 924.833 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       3       1       0       4       2       2       0
+Ran 6863 batches with an average size of 27.5339
+
+Thread 3948 stopping
+Played 8 games, total time 892.749 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       2       0       0       6       3       3       0
+Ran 6647 batches with an average size of 27.8649
+
+Thread 3958 stopping
+Played 8 games, total time 872.494 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       3       1       0
+Ran 6589 batches with an average size of 29.2765
+
+Thread 3963 stopping
+Played 8 games, total time 868.778 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       3       2       0
+Ran 6503 batches with an average size of 29.6685
+
+Thread 3997 stopping
+Played 8 games, total time 859.124 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       2       1       1       0       6       2       4       0
+Ran 6595 batches with an average size of 26.5069
+
+Thread 3988 stopping
+Played 8 games, total time 879.886 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       1       3       0
+Ran 6780 batches with an average size of 27.24
+
+Thread 4015 stopping
+Played 8 games, total time 759.275 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       3       0       0       5       4       1       0
+Ran 6048 batches with an average size of 30.4092
+
+Thread 4006 stopping
+Played 8 games, total time 824.487 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       2       2       0
+Ran 6683 batches with an average size of 26.9193
+
+Thread 4021 stopping
+Played 8 games, total time 687.792 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       4       2       0       2       1       1       0
+Ran 5946 batches with an average size of 27.6727
+
+Thread 4036 stopping
+Played 8 games, total time 577.452 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       5       1       0       2       2       0       0
+Ran 6147 batches with an average size of 30.5575
+
+Thread 4025 stopping
+Played 8 games, total time 594.864 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       3       3       0       2       2       0       0
+Ran 6334 batches with an average size of 28.7477
+
+Thread 4042 stopping
+Played 8 games, total time 489.947 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       5       0       0       3       3       0       0
+Ran 6210 batches with an average size of 28.1369
+
+Thread 4066 stopping
+Played 8 games, total time 402.276 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       4       0       0       4       1       3       0
+Ran 5906 batches with an average size of 27.2833
+
+Thread 4052 stopping
+Played 8 games, total time 451.404 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       4       2       2       0       4       1       3       0
+Ran 6384 batches with an average size of 29.2943
+
+Thread 4073 stopping
+Played 8 games, total time 371.235 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       6       3       3       0       2       0       2       0
+Ran 5967 batches with an average size of 28.1275
+
+Thread 4057 stopping
+Played 8 games, total time 413.753 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       3       2       1       0       5       3       2       0
+Ran 6489 batches with an average size of 28.6489
+
+Thread 4095 stopping
+Played 8 games, total time 360.985 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       2       1       0
+Ran 6347 batches with an average size of 29.933
+
+Thread 4086 stopping
+Played 8 games, total time 365.043 sec.
+             Black   Black   Black   Black   White   White   White   White
+             total   passes  resign  m.lmt.  total   passes  resign  m.lmt.
+checkpoint       5       3       2       0       3       1       2       0
+Ran 6644 batches with an average size of 28.6225
+

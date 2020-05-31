@@ -1,0 +1,165 @@
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/u41625/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/preprocessing.py:140: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+W0529 06:54:36.528738 140088647063360 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/preprocessing.py:140: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/preprocessing.py:173: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+W0529 06:54:36.582860 140088647063360 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/preprocessing.py:173: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING:tensorflow:From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/preprocessing.py:222: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+W0529 06:54:36.587416 140088647063360 deprecation.py:323] From /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/preprocessing.py:222: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+2020-05-29 06:54:36.617887: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  AVX512F
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-05-29 06:54:36.621213: I tensorflow/core/common_runtime/process_util.cc:113] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+;conv2d_1/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.31030703]
+;conv2d_2/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.51808655]
+;conv2d_3/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.31969249]
+;conv2d_4/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][2.20074034]
+;conv2d_5/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.95411623]
+;conv2d_6/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][3.48217225]
+;conv2d_7/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.57327366]
+;conv2d_8/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][4.38477373]
+;conv2d_9/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.29473412]
+;conv2d_10/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][4.56083584]
+;conv2d_11/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.13579321]
+;conv2d_12/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][4.90860128]
+;conv2d_13/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.21543849]
+;conv2d_14/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][5.68370581]
+;conv2d_15/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.00710857]
+;conv2d_16/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][6.20665646]
+;conv2d_17/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.43310452]
+;conv2d_18/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][7.31898499]
+;conv2d_20/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][3.31193447]
+;conv2d_19/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][3.43907762]
+;conv2d_1/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.34263062]
+;conv2d_2/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.37989771]
+;conv2d_3/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.7038238]
+;conv2d_4/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][2.15431523]
+;conv2d_5/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.56913447]
+;conv2d_6/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][4.06340599]
+;conv2d_7/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.972911]
+;conv2d_8/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][4.74484968]
+;conv2d_9/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.61555243]
+;conv2d_10/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][5.16747093]
+;conv2d_11/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.51911819]
+;conv2d_12/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][5.33810186]
+;conv2d_13/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.11088228]
+;conv2d_14/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][6.38962746]
+;conv2d_15/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.19658935]
+;conv2d_16/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][6.5157032]
+;conv2d_17/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.07677019]
+;conv2d_18/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][7.39082146]
+;conv2d_19/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][3.64694667]
+;conv2d_20/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][3.16862226]
+;conv2d_1/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.35047483]
+;conv2d_2/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.60669684]
+;conv2d_3/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.35273373]
+;conv2d_4/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.95182812]
+;conv2d_5/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.46063328]
+;conv2d_6/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][2.99092746]
+;conv2d_7/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.34560716]
+;conv2d_8/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][3.59406137]
+;conv2d_9/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.29923284]
+;conv2d_10/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][4.2655735]
+;conv2d_11/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.01954603]
+;conv2d_12/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][5.30645895]
+;conv2d_13/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.31255531]
+;conv2d_14/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][5.5982604]
+;conv2d_15/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.05353808]
+;conv2d_16/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][6.18921328]
+;conv2d_17/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.18457484]
+;conv2d_18/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][7.37397194]
+;conv2d_20/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][3.31551671]
+;conv2d_19/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][3.71996474]
+;conv2d_1/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.20710897]
+;conv2d_2/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.47773778]
+;conv2d_3/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.71165478]
+;conv2d_4/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][2.5713098]
+;conv2d_5/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][3.31421542]
+;conv2d_6/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][4.66777611]
+;conv2d_7/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][2.24667478]
+;conv2d_8/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][5.54733086]
+;conv2d_9/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.83103549]
+;conv2d_10/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][4.38094711]
+;conv2d_11/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.15796554]
+;conv2d_12/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][4.50674152]
+;conv2d_13/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.22447515]
+;conv2d_14/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][6.13508129]
+;conv2d_15/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.51285052]
+;conv2d_16/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][5.95654535]
+;conv2d_17/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.72849965]
+;conv2d_18/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][6.80539465]
+;conv2d_20/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][2.83575034]
+;conv2d_19/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][3.75632858]
+;conv2d_1/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.0527271]
+;conv2d_2/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.80926585]
+;conv2d_3/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.54606283]
+;conv2d_4/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][2.26326871]
+;conv2d_5/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][2.21168733]
+;conv2d_6/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][4.3635273]
+;conv2d_7/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.75861239]
+;conv2d_8/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][4.42218828]
+;conv2d_9/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][2.18852]
+;conv2d_10/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][4.34892511]
+;conv2d_11/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.19101584]
+;conv2d_12/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][4.98063803]
+;conv2d_13/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.21459556]
+;conv2d_14/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][5.53866577]
+;conv2d_15/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.06337655]
+;conv2d_16/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][6.08312464]
+;conv2d_17/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][1.46654058]
+;conv2d_18/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][7.09974241]
+;conv2d_20/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][2.89021754]
+;conv2d_19/Conv2D_eightbit_requant_range__print__;__requant_min_max:[0][3.69844913]
