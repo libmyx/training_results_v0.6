@@ -16,7 +16,7 @@ BOARD_SIZE=9  python3  ml_perf/reference_implementation.py \
   --numa_cores=$NUMA_CORES \
   --quantization=$3 \
   --train_node=localhost
-
+echo "training loop finished"
 # Once the training loop has finished, run model evaluation to find the
 # first trained model that's better than the target
 BOARD_SIZE=9  python3  ml_perf/eval_models.py \

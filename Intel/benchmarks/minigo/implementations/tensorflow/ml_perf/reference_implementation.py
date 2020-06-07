@@ -197,6 +197,8 @@ def initialize_from_checkpoint(state):
 
 def parse_win_stats_table(stats_str, num_lines):
   result = []
+  logging.debug("stats_str:")
+  logging.debug(stats_str)
   lines = stats_str.split('\n')
 
   while True:
@@ -376,6 +378,10 @@ async def selfplay(state, flagfile='selfplay'):
             *sp_cmd)
 
   result = '\n'.join(lines)
+  print("using parse win stats with result:")
+  print(result)
+  logging.warning("using parse win stats with result:")
+  logging.warning(result)
   with logged_timer('parse win stats'):
     stats = parse_win_stats_table(result, 1)[0]
     num_games = stats.total_wins
@@ -553,7 +559,6 @@ async def evaluate_model(eval_model_path, target_model_path, sgf_dir, seed, flag
           num_instance, FLAGS.eval_node, None, None, seed,
           *eval_cmd)
   result = '\n'.join(lines)
-  logging.info(result)
   eval_stats, target_stats = parse_win_stats_table(result, 2)
   num_games = eval_stats.total_wins + target_stats.total_wins
   win_rate = eval_stats.total_wins / num_games

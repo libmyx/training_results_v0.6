@@ -34,7 +34,7 @@ FLAGS = flags.FLAGS
 
 # Self-play a number of games.
 async def do_execute_mi():
-
+  print("do_execute_mi")
   num_instance = FLAGS.num_instance
 
   start_copy = False
@@ -44,26 +44,31 @@ async def do_execute_mi():
       arg_list.append(arg)
     if arg == '--':
       start_copy = True
-
+  print("copying finished")
   if num_instance > 1:
+    logging.debug("num_instance>1")
     result_list = checked_run_mi(
       num_instance,
       *arg_list
     )
     for result in result_list:
       # TODO needs to be more generic
-      print ('\n'.join(result.split('\n')[-7:]))
+      print("results")
+      print(result)
+      logging.debug('\n'.join(result.split('\n')[-7:]))
   else:
+    logging.debug("else")
     result = checked_run(
       *arg_list
     )
-    print (result)
+    logging.debug(result)
 
 def main(unused_argv):
   try:
     wait(do_execute_mi())
   finally:
     asyncio.get_event_loop().close()
+  # asyncio.run(do_execute_mi())
 
 if __name__ == '__main__':
   app.run(main)

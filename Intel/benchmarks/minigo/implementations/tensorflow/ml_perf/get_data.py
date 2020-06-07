@@ -55,7 +55,7 @@ def main(unused_argv):
       src = os.path.join(FLAGS.src_dir, d, N)
       dst = os.path.join(FLAGS.dst_dir, d)
       utils.ensure_dir_exists(dst)
-      utils.wait(utils.checked_run('gsutil', '-m', 'cp', '-r', src, dst))
+      # utils.wait(utils.checked_run('gsutil', '-m', 'cp', '-r', src, dst))
 
     # Freeze the target model.
     freeze_graph(os.path.join(FLAGS.dst_dir, 'target', N, 'target'))

@@ -14,5 +14,5 @@ echo :::MLL `date +%s.%N` cache_clear: {\"value\": \"true\", \"metadata\": {\"li
 
 pushd ../implementations/tensorflow
 # True for quantization
-./run.sh True
+./run.sh False
 popd

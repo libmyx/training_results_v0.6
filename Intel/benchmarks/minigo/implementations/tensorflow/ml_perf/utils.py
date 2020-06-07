@@ -145,6 +145,7 @@ async def checked_run_distributed(genvs, num_instance, hosts, proclists, numa_no
   return result
 
 def checked_run_mi(num_instance, *cmd):
+  print('utils.checked_run_mi')
   name = get_cmd_name(cmd)
   logging.debug('Running %s*%d: %s', name, num_instance, expand_cmd_str(cmd))
   num_parallel_instance = int(multiprocessing.cpu_count())
@@ -219,7 +220,7 @@ def checked_run_mi(num_instance, *cmd):
             proc_count += 1
         logging.debug('proc {} finished. proc count = {}'.format(
             index, proc_count))
-    time.sleep(0.001)  # avoid busy loop
+    # time.sleep(0.001)  # avoid busy loop
   return result_list
 
 def wait(aws):
