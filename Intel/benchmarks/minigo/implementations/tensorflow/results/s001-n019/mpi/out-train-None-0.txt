@@ -1,0 +1,4 @@
+Reading tf_records from 145 inputs
+Copying /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n019/work_dir/model.ckpt-18876.data-00000-of-00001 to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n019/models/000010-000005.data-00000-of-00001
+Copying /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n019/work_dir/model.ckpt-18876.meta to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n019/models/000010-000005.meta
+Copying /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n019/work_dir/model.ckpt-18876.index to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n019/models/000010-000005.index
