@@ -1,0 +1,5 @@
+WARNING: release_mt library was used but no multi-ep feature was enabled. Please use release library instead.
+Reading tf_records from 160 inputs
+Copying /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n015/work_dir/model.ckpt-25104.index to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n015/models/000039-000016.index
+Copying /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n015/work_dir/model.ckpt-25104.meta to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n015/models/000039-000016.meta
+Copying /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n015/work_dir/model.ckpt-25104.data-00000-of-00001 to /home/u41625/training_results_v0.6/Intel/benchmarks/minigo/implementations/tensorflow/results/s001-n015/models/000039-000016.data-00000-of-00001
